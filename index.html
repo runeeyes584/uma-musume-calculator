@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umapyoi Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Umapyoi Calculator</h1>
+    </div>
+    <h2>Calculate your Uma score</h2>
+    <div class="parent">
+        <div class="div1">
+            <label for="uma-select">Your Uma:</label>
+            <select id="uma-select" name="uma-select">
+                <option value="" disabled selected>Select your Uma...</option>
+                <!-- Options will be loaded dynamically from uma_musume.json -->
+            </select>
+        </div>
+        <div class="div2">
+            <div class="stats-container">
+                <div class="stats-header">
+                    <span></span>
+                    <span>Stats</span>
+                    <span>Rating</span>
+                    <span>Score</span>
+                </div>
+                <div class="stat-row">
+                    <img src="assets/img/speed.png" alt="Speed" class="stat-icon speed">
+                    <input type="number" class="stat-input" value="1200" min="0" max="9999" aria-label="Speed stat">
+                    <div class="rating">SS+</div>
+                    <div class="score">3841</div>
+                </div>
+                <div class="stat-row">
+                    <img src="assets/img/stamina.png" alt="Stamina" class="stat-icon stamina">
+                    <input type="number" class="stat-input" value="1200" min="0" max="9999" aria-label="Stamina stat">
+                    <div class="rating">SS+</div>
+                    <div class="score">3841</div>
+                </div>
+                <div class="stat-row">
+                    <img src="assets/img/power.png" alt="Power" class="stat-icon power">
+                    <input type="number" class="stat-input" value="1200" min="0" max="9999" aria-label="Power stat">
+                    <div class="rating">SS+</div>
+                    <div class="score">3841</div>
+                </div>
+                <div class="stat-row">
+                    <img src="assets/img/guts.png" alt="Guts" class="stat-icon guts">
+                    <input type="number" class="stat-input" value="1200" min="0" max="9999" aria-label="Guts stat">
+                    <div class="rating">SS+</div>
+                    <div class="score">3841</div>
+                </div>
+                <div class="stat-row">
+                    <img src="assets/img/wits.png" alt="Wisdom" class="stat-icon wisdom">
+                    <input type="number" class="stat-input" value="1200" min="0" max="9999" aria-label="Wisdom stat">
+                    <div class="rating">SS+</div>
+                    <div class="score">3841</div>
+                </div>
+                
+                <!-- Total Stats Score Display -->
+                <div class="total-stats-section">
+                    <div class="info-divider"></div>
+                    <div class="total-stats-row">
+                        <span class="total-label">Total Stats Score:</span>
+                        <span class="total-value" id="total-stats-score">0</span>
+                    </div>
+                </div>
+                
+                <!-- Additional Character Info Section -->
+                <div class="character-info-section">
+                    <div class="info-divider"></div>
+                    <div class="character-details">
+                        <h4>Character Details</h4>
+                        <div class="detail-row">
+                            <span class="detail-label">Japanese Name:</span>
+                            <span class="detail-value" id="japanese-name">-</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Voice Actor:</span>
+                            <span class="detail-value" id="voice-actor">-</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Birthday:</span>
+                            <span class="detail-value" id="birthday">-</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Height:</span>
+                            <span class="detail-value" id="height">-</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Release Date:</span>
+                            <span class="detail-value" id="release-date">-</span>
+                        </div>
+                    </div>
+                    
+                    <div class="measurements-section">
+                        <div class="detail-row">
+                            <span class="detail-label">Measurements:</span>
+                            <span class="detail-value" id="measurements">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div3">
+            <div class="skills-container">
+                <div class="skills-header">
+                    <div class="score-section">
+                        <label for="total-score">Score</label>
+                        <input type="number" id="total-score" value="0" readonly>
+                    </div>
+                    <div class="button-group">
+                        <a href="assets/pages/somethingtosay.html" class="how-to-use-btn" target="_blank">How to use</a>
+                        <button type="button" class="add-skill-btn">Add skill</button>
+                    </div>
+                </div>
+                <div class="skills-list">
+                    <!-- Skills will be added dynamically -->
+                </div>
+            </div>
+        </div>
+        <div class="div4">
+            <div class="avatar-container">
+                <img id="uma-avatar" src="assets/avatars/agnes_tachyon.png" alt="Uma character avatar" class="avatar-image">
+                <div class="uma-name-display" id="uma-name-display">Select an Uma</div>
+            </div>
+        </div>
+        <div class="div5">
+            <div class="stars-container">
+                <label class="stars-label">Stars:</label>
+                <div class="star-rating">
+                    <span class="star active" data-rating="1">★</span>
+                    <span class="star active" data-rating="2">★</span>
+                    <span class="star active" data-rating="3">★</span>
+                    <span class="star" data-rating="4">★</span>
+                    <span class="star" data-rating="5">★</span>
+                </div>
+            </div>
+        </div>
+        <div class="div6">
+            <div class="unique-skill-container">
+                <div class="unique-skill-info">
+                    <div class="unique-skill-icon">
+                        <span class="sparkle">✨</span>
+                        <span class="formula">U = ma2</span>
+                    </div>
+                    <div class="skill-description">
+                        <div class="skill-name">U = ma2</div>
+                        <div class="skill-desc-text">Unique skill description goes here</div>
+                    </div>
+                </div>
+                <div class="unique-level-section">
+                    <label for="unique-level">Unique Level Skill:</label>
+                    <select id="unique-level" name="unique-level" aria-label="Unique skill level">
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <div class="unique-score-display">
+                        <span class="unique-score-label">Score:</span>
+                        <span class="unique-score-value" id="unique-skill-score">240</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div7">
+            <div class="race-config-container">
+                <div class="config-row">
+                    <label class="config-label">Track</label>
+                    <div class="config-options">
+                        <div class="config-item">
+                            <label for="turf">Turf</label>
+                            <select id="turf" name="turf" aria-label="Turf rating">
+                                <option value="S">S</option>
+                                <option value="A" selected>A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label for="dirt">Dirt</label>
+                            <select id="dirt" name="dirt" aria-label="Dirt rating">
+                                <option value="S">S</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G" selected>G</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="config-row">
+                    <label class="config-label">Distance</label>
+                    <div class="config-options">
+                        <div class="config-item">
+                            <label for="sprint">Sprint</label>
+                            <select id="sprint" name="sprint" aria-label="Sprint rating">
+                                <option value="S">S</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C" selected>C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label for="mile">Mile</label>
+                            <select id="mile" name="mile" aria-label="Mile rating">
+                                <option value="S">S</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C" selected>C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label for="medium">Medium</label>
+                            <select id="medium" name="medium" aria-label="Medium rating">
+                                <option value="S">S</option>
+                                <option value="A" selected>A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label for="long">Long</label>
+                            <select id="long" name="long" aria-label="Long rating">
+                                <option value="S">S</option>
+                                <option value="A" selected>A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="config-row">
+                    <label class="config-label">Style</label>
+                    <div class="config-options">
+                        <div class="config-item">
+                            <label for="front">Front</label>
+                            <select id="front" name="front" aria-label="Front rating">
+                                <option value="S">S</option>
+                                <option value="A" selected>A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label for="pace">Pace</label>
+                            <select id="pace" name="pace" aria-label="Pace rating">
+                                <option value="S">S</option>
+                                <option value="A" selected>A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label for="late">Late</label>
+                            <select id="late" name="late" aria-label="Late rating">
+                                <option value="S">S</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F" selected>F</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <div class="config-item">
+                            <label for="end">End</label>
+                            <select id="end" name="end" aria-label="End rating">
+                                <option value="S">S</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="E">E</option>
+                                <option value="F">F</option>
+                                <option value="G" selected>G</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div8">
+            <div class="summary-container">
+                <div class="summary-row">
+                    <label class="summary-label">Rating</label>
+                    <div class="summary-value rating-value">SS</div>
+                </div>
+                <div class="summary-row">
+                    <label class="summary-label">Overall</label>
+                    <div class="summary-value total-value">23228</div>
+                </div>
+                <div class="summary-row">
+                    <label class="summary-label">Next</label>
+                    <div class="summary-value next-value">MAX</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Debug script -->
+<script src="debug_stats.js"></script>
+</html>

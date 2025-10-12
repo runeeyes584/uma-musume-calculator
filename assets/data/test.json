@@ -1,0 +1,47 @@
+[
+    {
+        "id": "king_halo",
+        "name": "King Halo",
+        "imglink": "assets/avatars/king_halo.png",
+        "japanese_name": "キングヘイロー",
+        "voice_actor": "Iori Saeki",
+        "release_date": "2025-06-26",
+        "character_details": {
+            "birthday": "April 28",
+            "height": "159 cm",
+            "three_sizes": {
+                "bust": 85,
+                "waist": 60,
+                "hip": 85
+            }
+        },
+        "skill": [
+            {
+                "rarity": "2 star",
+                "name": "Speed Boost",
+                "description": "Increases speed by 20% for 10 seconds."
+            },
+            {
+                "name": "Endurance",
+                "description": "Reduces stamina consumption by 15%."
+            }
+        ]
+    },
+    {
+        "id": "nice_nature",
+        "name": "Nice Nature",
+        "imglink": "assets/avatars/nice_nature.png",
+        "japanese_name": "ナイスネイチャ",
+        "voice_actor": "Kaori Maeda",
+        "release_date": "2025-06-26",
+        "character_details": {
+            "birthday": "April 16",
+            "height": "157 cm",
+            "three_sizes": {
+                "bust": 79,
+                "waist": 56,
+                "hip": 80
+            }
+        }
+    }
+]

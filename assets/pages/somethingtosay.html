@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="vi" id="htmlLang">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đôi Lời Của Tác Giả - Uma Musume</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .author-page {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+        }
+
+        .author-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+        }
+
+        .author-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .author-title {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .author-subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .author-content {
+            line-height: 1.8;
+            font-size: 1.1em;
+            color: #34495e;
+        }
+
+        .author-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .back-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.3s ease;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Contact Buttons */
+        .contact-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 0.95em;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .facebook-btn {
+            background: linear-gradient(45deg, #1877f2, #42a5f5);
+        }
+
+        .facebook-btn:hover {
+            background: linear-gradient(45deg, #166fe5, #1976d2);
+        }
+
+        .email-btn {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a5a);
+        }
+
+        .email-btn:hover {
+            background: linear-gradient(45deg, #ff5252, #e53935);
+        }
+
+        .contact-icon {
+            font-size: 1.2em;
+        }
+
+        /* Back button wrapper for centering */
+        .back-button-wrapper {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .author-signature {
+            text-align: right;
+            margin-top: 40px;
+            font-style: italic;
+            color: #7f8c8d;
+            border-top: 2px solid #ecf0f1;
+            padding-top: 20px;
+        }
+
+        .emoji {
+            font-size: 1.5em;
+        }
+
+        /* Language Switch Styles */
+        .language-switch {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 25px;
+            padding: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+        }
+
+        /* Music Player Styles */
+        .music-player {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 50px;
+            padding: 15px 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            z-index: 200;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .music-player:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .music-player.muted {
+            background: rgba(200, 200, 200, 0.9);
+            color: #666;
+        }
+
+        .music-icon {
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+            animation: pulse 1.5s infinite;
+        }
+
+        .music-player.muted .music-icon {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .music-text {
+            font-size: 0.9em;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .volume-control {
+            margin-left: 10px;
+            width: 60px;
+        }
+
+        .volume-slider {
+            width: 100%;
+            height: 4px;
+            border-radius: 2px;
+            background: rgba(255, 255, 255, 0.3);
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+        }
+
+        .volume-slider::-moz-range-thumb {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 0 2px;
+            font-size: 0.9em;
+        }
+
+        .lang-btn.active {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .lang-btn:hover:not(.active) {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        /* Hide inactive language content */
+        .lang-content {
+            display: none;
+        }
+
+        .lang-content.active {
+            display: block;
+        }
+
+        @media (max-width: 1200px) {
+            .author-page {
+                max-width: 90%;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .language-switch {
+                position: relative;
+                top: 0;
+                right: 0;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .author-page {
+                padding: 10px;
+                max-width: 100%;
+            }
+
+            .author-card {
+                padding: 20px;
+                margin-bottom: 80px; /* Space for music player */
+            }
+
+            .author-title {
+                font-size: 2em;
+                line-height: 1.2;
+            }
+
+            .author-subtitle {
+                font-size: 1em;
+            }
+
+            .author-content {
+                font-size: 1em;
+                line-height: 1.6;
+            }
+
+            .contact-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+                margin-top: 25px;
+            }
+
+            .contact-btn {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center;
+                padding: 14px 20px;
+                font-size: 1em;
+            }
+
+            .music-player {
+                bottom: 20px;
+                right: 20px;
+                padding: 12px 16px;
+                border-radius: 40px;
+            }
+
+            .music-text {
+                font-size: 0.8em;
+            }
+
+            .volume-control {
+                width: 50px;
+            }
+
+            .back-button-wrapper {
+                margin-top: 25px;
+            }
+
+            .back-button {
+                padding: 14px 25px;
+                font-size: 1em;
+            }
+
+            .author-signature {
+                text-align: center;
+                margin-top: 30px;
+                padding-top: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .author-page {
+                padding: 5px;
+            }
+
+            .author-card {
+                padding: 15px;
+                border-radius: 15px;
+            }
+
+            .author-title {
+                font-size: 1.8em;
+            }
+
+            .author-subtitle {
+                font-size: 0.95em;
+            }
+
+            .author-content {
+                font-size: 0.95em;
+                line-height: 1.5;
+            }
+
+            .highlight {
+                padding: 1px 6px;
+                border-radius: 3px;
+            }
+
+            .contact-buttons {
+                gap: 10px;
+            }
+
+            .contact-btn {
+                max-width: 100%;
+                padding: 12px 15px;
+                font-size: 0.9em;
+            }
+
+            .contact-icon {
+                font-size: 1em;
+            }
+
+            .music-player {
+                bottom: 15px;
+                right: 15px;
+                padding: 10px 12px;
+            }
+
+            .music-icon {
+                font-size: 1em;
+            }
+
+            .music-text {
+                font-size: 0.75em;
+            }
+
+            .volume-control {
+                width: 40px;
+                margin-left: 8px;
+            }
+
+            .volume-slider {
+                height: 3px;
+            }
+
+            .volume-slider::-webkit-slider-thumb {
+                width: 10px;
+                height: 10px;
+            }
+
+            .back-button {
+                padding: 12px 20px;
+                font-size: 0.95em;
+            }
+
+            .author-signature {
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .author-card {
+                padding: 12px;
+            }
+
+            .author-title {
+                font-size: 1.6em;
+            }
+
+            .author-content {
+                font-size: 0.9em;
+            }
+
+            .contact-btn {
+                padding: 10px 12px;
+                font-size: 0.85em;
+            }
+
+            .music-player {
+                bottom: 10px;
+                right: 10px;
+                padding: 8px 10px;
+            }
+
+            .volume-control {
+                display: none; /* Hide volume control on very small screens */
+            }
+        }
+
+        /* Landscape orientation adjustments */
+        @media (max-height: 600px) and (orientation: landscape) {
+            .author-page {
+                padding: 10px;
+            }
+
+            .author-card {
+                padding: 15px;
+                margin-bottom: 60px;
+            }
+
+            .author-title {
+                font-size: 1.8em;
+            }
+
+            .music-player {
+                bottom: 10px;
+                right: 10px;
+                padding: 8px 12px;
+            }
+        }
+
+        /* Touch device optimizations */
+        @media (hover: none) and (pointer: coarse) {
+            .contact-btn,
+            .back-button,
+            .music-player,
+            .lang-btn {
+                min-height: 44px;
+                touch-action: manipulation;
+            }
+
+            .volume-slider {
+                min-height: 44px;
+                padding: 15px 0;
+            }
+        }
+
+        /* High DPI screens */
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .author-card {
+                box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Language Switch -->
+    <div class="language-switch">
+        <button class="lang-btn active" onclick="switchLanguage('vi')" id="btnVi">🇻🇳 Tiếng Việt</button>
+        <button class="lang-btn" onclick="switchLanguage('en')" id="btnEn">🇺🇸 English</button>
+    </div>
+
+    <!-- Music Player -->
+    <div class="music-player" onclick="toggleMute()" id="musicPlayer">
+        <span class="music-icon" id="musicIcon">🔊</span>
+        <span class="music-text" id="musicText">Âm thanh</span>
+        <div class="volume-control">
+            <input type="range" min="0" max="100" value="13" class="volume-slider" id="volumeSlider" title="Điều chỉnh âm lượng" onclick="event.stopPropagation()">
+        </div>
+    </div>
+
+    <!-- Hidden audio element -->
+    <audio id="backgroundMusic" loop preload="auto" autoplay>
+        <source src="../../assets/audio/background-music.mp3" type="audio/mpeg">
+        <source src="../../assets/audio/background-music.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="author-page">
+        <div class="author-card">
+            <!-- Vietnamese Content -->
+            <div class="lang-content active" id="content-vi">
+                <div class="author-header">
+                    <h1 class="author-title">Đôi Lời Của Tác Giả</h1>
+                    <p class="author-subtitle">Về cách sử dụng Umapyoi Calculator</p>
+                </div>
+
+                <div class="author-content">
+                    <p>Tôi, một người quá yếu để đua giải Graded, và quá mạnh để đua giải Open, đã tạo ra <span
+                            class="highlight">Umapyoi Calculator</span>
+                        như một công cụ hỗ trợ cho chính mình và cho những ai đang gặp khó khăn trong việc tìm kiếm một
+                        giải
+                        pháp phù hợp cho mình, chủ yếu là trong việc căn chỉnh số để tạo ra một Uma mạnh nhất trong tầm
+                        rating
+                        B. <span class="highlight">Tạm thời đừng quan tâm đến tính năng chọn Uma nhé</span>, tôi sẽ bổ
+                        sung thông tin sau.
+                    </p>
+                    <p>
+                        Điều bạn cần đơn giản là hãy cho hệ thống biết những gì bạn có và hệ thống sẽ giúp bạn <span
+                            class="highlight">tính trước
+                            điểm rating</span> để có cho mình một chiến thuật phù hợp. Hãy lưu ý chọn đúng skill, nhất
+                        là với các skill
+                        được nâng cấp lên Gold Skill nhé! <span class="emoji">⭐</span>
+                    </p>
+                    <p>
+                        <em>💡 Mẹo nhỏ: Các skill trong danh sách được <span class="highlight">sắp xếp theo thứ tự alphabet</span> để dễ dàng tìm kiếm!</em>
+                    </p>
+                    <p>
+                        Ngoài ra chọn đúng chỉ số loại đường đua (turf, dirt), loại cự ly (short, mile, middle, long) và
+                        chiến thuật chạy (front, pace, late, end) cũng rất quan trọng vì một vài skill sẽ có điểm thay
+                        đổi dựa trên các chỉ số vừa rồi.
+                    </p>
+
+                    <p>
+                        Tôi hi vọng <span class="highlight">Umapyoi Calculator sẽ giúp ích được cho bạn</span> trong
+                        hành trình chinh phục những giải đấu
+                        Champion Meetings sắp tới. Vì <span class="highlight">dự án một người</span> nên thỉnh thoảng
+                        thông tin sẽ update trễ hơn dự kiến,
+                        mong mọi người thông cảm. <span class="emoji">🙏</span>
+                    </p>
+
+                    <p>
+                        Nếu bạn có bất kỳ <span class="highlight">góp ý hay thắc mắc</span> nào, đừng ngần ngại liên hệ
+                        với tôi qua email hay Facebook cá
+                        nhân. Tôi sẽ cố gắng phản hồi sớm nhất có thể! <span class="emoji">💌</span>
+                    </p>
+
+                    <div class="author-signature">
+                        <p>Trân trọng,<br>
+                            <strong></strong><br>
+                            <em>Tháng 10, 2025</em><br>
+                            <strong>Kaleidoscope Runeeyes</strong>
+                        </p>
+                    </div>
+
+                    <!-- Contact Buttons -->
+                    <div class="contact-buttons">
+                        <a href="https://www.facebook.com/HCruneeyes" target="_blank" rel="noopener" class="contact-btn facebook-btn">
+                            <span class="contact-icon">📘</span>
+                            Facebook cá nhân
+                        </a>
+                        <a href="mailto:anhtienle428@gmail.com" class="contact-btn email-btn">
+                            <span class="contact-icon">📧</span>
+                            Gửi Email
+                        </a>
+                    </div>
+                </div>
+
+                <div class="back-button-wrapper">
+                    <a href="../../index.html" class="back-button">← Quay lại trang chủ</a>
+                </div>
+            </div>
+
+            <!-- English Content -->
+            <div class="lang-content" id="content-en">
+                <div class="author-header">
+                    <h1 class="author-title">Author's Words</h1>
+                    <p class="author-subtitle">About using Umapyoi Calculator</p>
+                </div>
+
+                <div class="author-content">
+                    <p>I, someone too weak for Graded races and too strong for Open races, created <span
+                            class="highlight">Umapyoi Calculator</span>
+                        as a supporting tool for myself and for those who are struggling to find a suitable solution,
+                        mainly in adjusting stats to create the strongest Uma within B rating range. <span
+                            class="highlight">Please don't worry about the Uma selection feature for now</span>, I will
+                        add more information later.
+                    </p>
+                    <p>
+                        What you simply need to do is let the system know what you have, and the system will help you
+                        <span class="highlight">calculate
+                            the rating points in advance</span> to have a suitable strategy for yourself. Please pay
+                        attention to choosing the right skills,
+                        especially for skills that have been upgraded to Gold Skills! <span class="emoji">⭐</span>
+                    </p>
+                    <p>
+                        <em>💡 Quick tip: Skills in the list are <span class="highlight">sorted alphabetically</span> for easy searching!</em>
+                    </p>
+                    <p>
+                        Also, choosing the correct track type (turf, dirt), distance type (short, mile, middle, long),
+                        and
+                        running strategy (front, pace, late, end) is very important because some skills will have point
+                        changes based on these stats.
+                    </p>
+
+                    <p>
+                        I hope <span class="highlight">Umapyoi Calculator will be helpful</span> for you in your journey
+                        to conquer the upcoming
+                        Champion Meetings. Since this is a <span class="highlight">one-person project</span>, sometimes
+                        information updates may be later than expected,
+                        please understand. <span class="emoji">🙏</span>
+                    </p>
+
+                    <p>
+                        If you have any <span class="highlight">feedback or questions</span>, don't hesitate to contact
+                        me via email or Facebook.
+                        I will try to respond as soon as possible! <span class="emoji">💌</span>
+                    </p>
+
+                    <div class="author-signature">
+                        <p>Best regards,<br>
+                            <strong></strong><br>
+                            <em>October, 2025</em><br>
+                            <strong>Kaleidoscope Runeeyes</strong>
+                        </p>
+                    </div>
+
+                    <!-- Contact Buttons -->
+                    <div class="contact-buttons">
+                        <a href="https://www.facebook.com/HCruneeyes" target="_blank" rel="noopener" class="contact-btn facebook-btn">
+                            <span class="contact-icon">📘</span>
+                            Personal Facebook
+                        </a>
+                        <a href="mailto:anhtienle428@gmail.com" class="contact-btn email-btn">
+                            <span class="contact-icon">📧</span>
+                            Send Email
+                        </a>
+                    </div>
+                </div>
+
+                <div class="back-button-wrapper">
+                    <a href="../../index.html" class="back-button">← Back to Homepage</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Language switching functionality
+        function switchLanguage(lang) {
+            // Hide all content
+            document.querySelectorAll('.lang-content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected language content
+            document.getElementById('content-' + lang).classList.add('active');
+
+            // Add active class to selected button
+            document.getElementById('btn' + (lang === 'vi' ? 'Vi' : 'En')).classList.add('active');
+
+            // Update HTML lang attribute
+            document.getElementById('htmlLang').setAttribute('lang', lang);
+
+            // Update page title
+            if (lang === 'vi') {
+                document.title = 'Đôi Lời Của Tác Giả - Uma Musume';
+            } else {
+                document.title = "Author's Words - Uma Musume";
+            }
+
+            // Save language preference
+            localStorage.setItem('preferred-language', lang);
+        }
+
+        // Load saved language preference
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedLang = localStorage.getItem('preferred-language');
+            if (savedLang && savedLang !== 'vi') {
+                switchLanguage(savedLang);
+            }
+            
+            // Initialize responsive features
+            handleResponsiveFeatures();
+        });
+
+        // Add smooth transition effect
+        document.querySelectorAll('.lang-content').forEach(content => {
+            content.style.transition = 'opacity 0.3s ease-in-out';
+        });
+
+        // Responsive features handler
+        function handleResponsiveFeatures() {
+            // Handle orientation change
+            window.addEventListener('orientationchange', function() {
+                setTimeout(() => {
+                    // Recalculate layout after orientation change
+                    window.dispatchEvent(new Event('resize'));
+                }, 100);
+            });
+            
+            // Handle viewport size changes
+            let resizeTimeout;
+            window.addEventListener('resize', function() {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    adjustForViewport();
+                }, 150);
+            });
+            
+            // Initial adjustment
+            adjustForViewport();
+        }
+        
+        function adjustForViewport() {
+            const viewport = window.innerWidth;
+            const musicPlayer = document.getElementById('musicPlayer');
+            
+            // Adjust music player for very small screens
+            if (viewport <= 320) {
+                if (musicPlayer) {
+                    const volumeControl = musicPlayer.querySelector('.volume-control');
+                    if (volumeControl) {
+                        volumeControl.style.display = 'none';
+                    }
+                }
+            } else {
+                if (musicPlayer) {
+                    const volumeControl = musicPlayer.querySelector('.volume-control');
+                    if (volumeControl) {
+                        volumeControl.style.display = 'block';
+                    }
+                }
+            }
+            
+            // Adjust scroll behavior on mobile
+            if (viewport <= 768) {
+                document.body.style.overscrollBehavior = 'contain';
+            }
+        }
+        
+        // Prevent zoom on double tap for iOS
+        let lastTouchEnd = 0;
+        document.addEventListener('touchend', function (event) {
+            const now = (new Date()).getTime();
+            if (now - lastTouchEnd <= 300) {
+                event.preventDefault();
+            }
+            lastTouchEnd = now;
+        }, false);
+        
+        // Enhanced touch support for buttons
+        document.addEventListener('touchstart', function(e) {
+            const target = e.target;
+            if (target.classList.contains('contact-btn') || 
+                target.classList.contains('back-button') || 
+                target.classList.contains('lang-btn') ||
+                target.classList.contains('music-player')) {
+                target.style.transform = 'scale(0.98)';
+            }
+        });
+        
+        document.addEventListener('touchend', function(e) {
+            const target = e.target;
+            if (target.classList.contains('contact-btn') || 
+                target.classList.contains('back-button') || 
+                target.classList.contains('lang-btn') ||
+                target.classList.contains('music-player')) {
+                setTimeout(() => {
+                    target.style.transform = '';
+                }, 100);
+            }
+        });
+
+        // Music Player functionality
+        let isMuted = false;
+        const audio = document.getElementById('backgroundMusic');
+        const musicPlayer = document.getElementById('musicPlayer');
+        const musicIcon = document.getElementById('musicIcon');
+        const musicText = document.getElementById('musicText');
+        const volumeSlider = document.getElementById('volumeSlider');
+
+        // Set initial volume to 13%
+        audio.volume = 0.13;
+        volumeSlider.value = 13;
+
+        // Auto-start music when page loads
+        function startMusic() {
+            audio.play().then(() => {
+                console.log('Background music started successfully');
+                updateMusicText('Âm thanh', 'Sound');
+            }).catch((error) => {
+                console.log('Auto-play prevented by browser:', error);
+                // Try to start on first user interaction
+                document.addEventListener('click', function startOnClick() {
+                    audio.play();
+                    document.removeEventListener('click', startOnClick);
+                }, { once: true });
+            });
+        }
+
+        function toggleMute() {
+            if (isMuted) {
+                // Unmute
+                audio.volume = volumeSlider.value / 100;
+                isMuted = false;
+                musicPlayer.classList.remove('muted');
+                musicIcon.textContent = '🔊';
+                updateMusicText('Âm thanh', 'Sound');
+            } else {
+                // Mute
+                audio.volume = 0;
+                isMuted = true;
+                musicPlayer.classList.add('muted');
+                musicIcon.textContent = '🔇';
+                updateMusicText('Tắt tiếng', 'Muted');
+            }
+        }
+
+        function updateMusicText(vietnamese, english) {
+            const currentLang = document.getElementById('htmlLang').getAttribute('lang');
+            musicText.textContent = currentLang === 'vi' ? vietnamese : english;
+        }
+
+        // Volume control
+        volumeSlider.addEventListener('input', function() {
+            if (!isMuted) {
+                audio.volume = this.value / 100;
+            }
+        });
+
+        // Update music text when language changes
+        const originalSwitchLanguage = switchLanguage;
+        switchLanguage = function(lang) {
+            originalSwitchLanguage(lang);
+            if (isMuted) {
+                updateMusicText('Tắt tiếng', 'Muted');
+            } else {
+                updateMusicText('Âm thanh', 'Sound');
+            }
+            // Update volume slider title
+            volumeSlider.title = lang === 'vi' ? 'Điều chỉnh âm lượng' : 'Volume Control';
+        };
+
+        // Start music when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            startMusic();
+        });
+
+        // Ensure music keeps playing (in case of interruption)
+        audio.addEventListener('ended', function() {
+            audio.play();
+        });
+
+        audio.addEventListener('pause', function() {
+            // If audio is paused but not muted, try to resume
+            if (!isMuted) {
+                setTimeout(() => {
+                    audio.play().catch(() => {
+                        console.log('Could not resume audio');
+                    });
+                }, 100);
+            }
+        });
+    </script>
+</body>
+
+</html>

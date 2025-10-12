@@ -1,0 +1,2615 @@
+{
+    "ius": [
+        {
+            "name": "#LookatCurren",
+            "score": 180
+        },
+        {
+            "name": "Anchors Aweigh!",
+            "score": 180
+        },
+        {
+            "name": "Angling and Scheming",
+            "score": 180
+        },
+        {
+            "name": "Behold Thine Emperor's Divine Might",
+            "score": 180
+        },
+        {
+            "name": "Blazing Pride",
+            "score": 180
+        },
+        {
+            "name": "Blue Rose Closer",
+            "score": 180
+        },
+        {
+            "name": "Certain Victory",
+            "score": 180
+        },
+        {
+            "name": "Condor's Fury",
+            "score": 180
+        },
+        {
+            "name": "Cut and Drive!",
+            "score": 180
+        },
+        {
+            "name": "Eternal Moments",
+            "score": 180
+        },
+        {
+            "name": "Flashy☆Landing",
+            "score": 180
+        },
+        {
+            "name": "Flowery☆Maneuver",
+            "score": 180
+        },
+        {
+            "name": "G00 1st. F∞;",
+            "score": 180
+        },
+        {
+            "name": "Genius x Bakushin = Victory",
+            "score": 180
+        },
+        {
+            "name": "I See Victory in My Future!",
+            "score": 180
+        },
+        {
+            "name": "Just a Little Farther!",
+            "score": 180
+        },
+        {
+            "name": "KEEP IT REAL.",
+            "score": 180
+        },
+        {
+            "name": "Legacy of the Strong",
+            "score": 180
+        },
+        {
+            "name": "Let's Pump Some Iron!",
+            "score": 180
+        },
+        {
+            "name": "Lights of Vaudeville",
+            "score": 180
+        },
+        {
+            "name": "Nemesis",
+            "score": 180
+        },
+        {
+            "name": "Our Ticket to Win!",
+            "score": 180
+        },
+        {
+            "name": "Prideful King",
+            "score": 180
+        },
+        {
+            "name": "Pure Heart",
+            "score": 180
+        },
+        {
+            "name": "Red Shift/LP1211-M",
+            "score": 180
+        },
+        {
+            "name": "Resplendent Red Ace",
+            "score": 180
+        },
+        {
+            "name": "Shadow Break",
+            "score": 180
+        },
+        {
+            "name": "Shooting for Victory!",
+            "score": 180
+        },
+        {
+            "name": "Shooting Star",
+            "score": 180
+        },
+        {
+            "name": "Sky-High Teio Step",
+            "score": 180
+        },
+        {
+            "name": "SPARKLY☆STARDOM",
+            "score": 180
+        },
+        {
+            "name": "Super-Duper Climax",
+            "score": 180
+        },
+        {
+            "name": "Superior Heal",
+            "score": 180
+        },
+        {
+            "name": "The Duty of Dignity Calls",
+            "score": 180
+        },
+        {
+            "name": "The View from the Lead Is Mine!",
+            "score": 180
+        },
+        {
+            "name": "This Dance Is for Vittoria!",
+            "score": 180
+        },
+        {
+            "name": "Triumphant Pulse",
+            "score": 180
+        },
+        {
+            "name": "U=ma2",
+            "score": 180
+        },
+        {
+            "name": "Victoria por plancha ☆",
+            "score": 180
+        },
+        {
+            "name": "Where There's a Will, There's a Way",
+            "score": 180
+        },
+        {
+            "name": "You and Me! One-on-One!",
+            "score": 180
+        },
+        {
+            "name": "∴win Q.E.D.",
+            "score": 180
+        }
+    ],
+    "golden": [
+        {
+            "name": "15,000,000 CC",
+            "check-type": "Late",
+            "score": {
+                "base": 367,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Adored by All",
+            "check-type": "Sprint",
+            "score": {
+                "base": 356,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Adrenaline Rush",
+            "check-type": "Long",
+            "score": {
+                "base": 508,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "All-Seeing Eyes",
+            "check-type": "Late",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Battle Formation",
+            "check-type": "Mile",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Beeline Burst",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Big-Sisterly",
+            "check-type": "Mile",
+            "score": {
+                "base": 301,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Blinding Flash",
+            "check-type": "Sprint",
+            "score": {
+                "base": 356,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Breath of Fresh Air",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Calm and Collected",
+            "check-type": "Pace",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Center Stage",
+            "score": {
+                "base": 334
+            }
+        },
+        {
+            "name": "Changing Gears",
+            "check-type": "Mile",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Clairvoyance",
+            "check-type": "Medium",
+            "score": {
+                "base": 367,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Concentration",
+            "score": {
+                "base": 394
+            }
+        },
+        {
+            "name": "Cooldown",
+            "check-type": "Long",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Corner Connoisseur",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Crusader",
+            "check-type": "End",
+            "score": {
+                "base": 267,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Dazzling Disorientation",
+            "check-type": "Long",
+            "score": {
+                "base": 367,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Determined Descent",
+            "check-type": "Pace",
+            "score": {
+                "base": 301,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Dominator",
+            "check-type": "Medium",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Encroaching Shadow",
+            "check-type": "End",
+            "score": {
+                "base": 508,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Escape Artist",
+            "check-type": "Front",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Fast & Furious",
+            "check-type": "Late",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Furious Feat",
+            "check-type": "Mile",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Go-Home Specialist",
+            "check-type": "End",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Gourmand",
+            "check-type": "Pace",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Hard Worker",
+            "check-type": "Late",
+            "score": {
+                "base": 367,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Illusionist",
+            "check-type": "Long",
+            "score": {
+                "base": 367,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "In Body and Mind",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Indomitable",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Innate Experience",
+            "check-type": "Long",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Iron Will",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "It's On!",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Keen Eye",
+            "check-type": "Mile",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Killer Tunes",
+            "check-type": "Medium",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Lane Legerdemain",
+            "score": {
+                "base": 334
+            }
+        },
+        {
+            "name": "Lightning Step",
+            "check-type": "Medium",
+            "score": {
+                "base": 433,
+                "good": 433,
+                "average": 355,
+                "bad": 315,
+                "terrible": 276
+            }
+        },
+        {
+            "name": "Mile Maven",
+            "check-type": "Mile",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Miraculous Step",
+            "check-type": "Medium",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Mystifying Murmur",
+            "check-type": "Medium",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "No Stopping Me!",
+            "score": {
+                "base": 394
+            }
+        },
+        {
+            "name": "On Your Left!",
+            "check-type": "Late",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Overwhelming Pressure",
+            "check-type": "Long",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Perfect Prep!",
+            "check-type": "Sprint",
+            "score": {
+                "base": 276,
+                "good": 433,
+                "average": 355,
+                "bad": 315,
+                "terrible": 276
+            }
+        },
+        {
+            "name": "Petrifying Gaze",
+            "check-type": "End",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Plan X",
+            "check-type": "Sprint",
+            "score": {
+                "base": 356,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Professor of Curvature",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Race Planner",
+            "check-type": "Pace",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Relax",
+            "check-type": "Late",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Restless",
+            "check-type": "Front",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Rising Dragon",
+            "check-type": "Late",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Rushing Gale!",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Serenity",
+            "check-type": "End",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Shatterproof",
+            "check-type": "Pace",
+            "score": {
+                "base": 301,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Sixth Sense",
+            "check-type": "Front",
+            "score": {
+                "base": 267,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Sleeping Lion",
+            "check-type": "End",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Speed Star",
+            "check-type": "Pace",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Staggering Lead",
+            "check-type": "Sprint",
+            "score": {
+                "base": 356,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Stamina Siphon",
+            "check-type": "Long",
+            "score": {
+                "base": 507,
+                "good": 507,
+                "average": 415,
+                "bad": 369,
+                "terrible": 323
+            }
+        },
+        {
+            "name": "Step on the Gas!",
+            "check-type": "Mile",
+            "score": {
+                "base": 457,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Sturm und Drang",
+            "check-type": "End",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Super Lucky Seven",
+            "score": {
+                "base": 334
+            }
+        },
+        {
+            "name": "Swinging Maestro",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Taking the Lead",
+            "check-type": "Front",
+            "score": {
+                "base": 267,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Technician",
+            "check-type": "Pace",
+            "score": {
+                "base": 301,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "The Bigger Picture",
+            "check-type": "Late",
+            "score": {
+                "base": 367,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "The Coast Is Clear!",
+            "check-type": "End",
+            "score": {
+                "base": 267,
+                "good": 367,
+                "average": 301,
+                "bad": 267,
+                "terrible": 234
+            }
+        },
+        {
+            "name": "Trackblazer",
+            "check-type": "Medium",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Trending in the Charts!",
+            "check-type": "Dirt",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Turbo Sprint",
+            "check-type": "Sprint",
+            "score": {
+                "base": 356,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Unrestrained",
+            "check-type": "Front",
+            "score": {
+                "base": 406,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Unruffled",
+            "score": {
+                "base": 508
+            }
+        },
+        {
+            "name": "Unyielding",
+            "check-type": "Medium",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        },
+        {
+            "name": "Vanguard Spirit",
+            "check-type": "Long",
+            "score": {
+                "base": 559,
+                "good": 559,
+                "average": 457,
+                "bad": 406,
+                "terrible": 356
+            }
+        }
+    ],
+    "yellow": [
+        {
+            "name": "1,500,000 CC",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Acceleration",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Corner Acceleration ○",
+            "score": 217
+        },
+        {
+            "name": "Corner Adept ○",
+            "score": 217
+        },
+        {
+            "name": "Countermeasure",
+            "check-type": "Sprint",
+            "score": {
+                "base": 152,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Dodging Danger",
+            "check-type": "Front",
+            "score": {
+                "base": 103,
+                "good": 143,
+                "average": 116,
+                "bad": 103,
+                "terrible": 90
+            }
+        },
+        {
+            "name": "Early Lead",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "End Closer Corners ○",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "End Closer Corners ◎",
+            "check-type": "End",
+            "score": {
+                "base": 210,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "End Closer Straightaways ○",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "End Closer Straightaways ◎",
+            "check-type": "End",
+            "score": {
+                "base": 210,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Fast-Paced",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Fighter",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Final Push",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Focus",
+            "score": 129
+        },
+        {
+            "name": "Front Runner Corners ○",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Front Runner Corners ◎",
+            "check-type": "Front",
+            "score": {
+                "base": 210,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Front Runner Straightaways ○",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Front Runner Straightaways ◎",
+            "check-type": "Front",
+            "score": {
+                "base": 210,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Gap Closer",
+            "check-type": "Sprint",
+            "score": {
+                "base": 152,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Go with the Flow",
+            "score": 129
+        },
+        {
+            "name": "Groundwork",
+            "score": 217
+        },
+        {
+            "name": "Hawkeye",
+            "check-type": "Medium",
+            "score": {
+                "base": 142,
+                "good": 142,
+                "average": 116,
+                "bad": 103,
+                "terrible": 90
+            }
+        },
+        {
+            "name": "Highlander",
+            "score": 217
+        },
+        {
+            "name": "Homestretch Haste",
+            "score": 217
+        },
+        {
+            "name": "Huge Lead",
+            "check-type": "Sprint",
+            "score": {
+                "base": 183,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "I Can See Right Through You",
+            "check-type": "End",
+            "score": {
+                "base": 68,
+                "good": 94,
+                "average": 77,
+                "bad": 68,
+                "terrible": 60
+            }
+        },
+        {
+            "name": "Inside Scoop",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Keeping the Lead",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Late Surger Corners ○",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Late Surger Straightaways ○",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Late Surger Straightaways ◎",
+            "check-type": "Late",
+            "score": {
+                "base": 288,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Later Surger Corners ◎",
+            "check-type": "Late",
+            "score": {
+                "base": 288,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Leader's Pride",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Long Corners ○",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Long Corners ◎",
+            "check-type": "Long",
+            "score": {
+                "base": 288,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Long Straightaways ○",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Long Straightaways ◎",
+            "check-type": "Long",
+            "score": {
+                "base": 288,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Masterful Gambit",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Medium Corners ○",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Medium Corners ◎",
+            "check-type": "Medium",
+            "score": {
+                "base": 288,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Medium Straightaways ○",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Medium Straightaways ◎",
+            "check-type": "Medium",
+            "score": {
+                "base": 288,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Meticulous Measures",
+            "check-type": "Sprint",
+            "score": {
+                "base": 122,
+                "good": 191,
+                "average": 157,
+                "bad": 139,
+                "terrible": 122
+            }
+        },
+        {
+            "name": "Mile Corners ○",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Mile Corners ◎",
+            "check-type": "Mile",
+            "score": {
+                "base": 236,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Mile Straightaways ○",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Mile Straightaways ◎",
+            "check-type": "Mile",
+            "score": {
+                "base": 236,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Nimble Navigator",
+            "score": 174
+        },
+        {
+            "name": "Outer Swell",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Pace Chaser Corners ○",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Pace Chaser Corners ◎",
+            "check-type": "Pace",
+            "score": {
+                "base": 236,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Pace Chaser Straightaways ○",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Pace Chaser Straightaways ◎",
+            "check-type": "Pace",
+            "score": {
+                "base": 236,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Playtime's Over!",
+            "score": 217
+        },
+        {
+            "name": "Position Pilfer",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Prepared to Pass",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Pressure",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Productive Plan",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Prudent Positioning",
+            "score": 129
+        },
+        {
+            "name": "Ramp Up",
+            "score": 217
+        },
+        {
+            "name": "Second Wind",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Shifting Gears",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Shrewd Step",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Slick Surge",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Slipstream",
+            "score": 217
+        },
+        {
+            "name": "Sprint Corners ○",
+            "check-type": "Sprint",
+            "score": {
+                "base": 152,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Sprint Corners ◎",
+            "check-type": "Sprint",
+            "score": {
+                "base": 183,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Sprint Straightaways ○",
+            "check-type": "Sprint",
+            "score": {
+                "base": 152,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Sprint Straightaways ◎",
+            "check-type": "Sprint",
+            "score": {
+                "base": 183,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Sprinting Gear",
+            "check-type": "Sprint",
+            "score": {
+                "base": 152,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Steadfast",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Straight Descent",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Straightaway Acceleration",
+            "score": 217
+        },
+        {
+            "name": "Straightaway Adept",
+            "score": 217
+        },
+        {
+            "name": "Straightaway Spurt",
+            "check-type": "End",
+            "score": {
+                "base": 217,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Strategist",
+            "check-type": "End",
+            "score": {
+                "base": 68,
+                "good": 94,
+                "average": 77,
+                "bad": 68,
+                "terrible": 60
+            }
+        },
+        {
+            "name": "Studious",
+            "check-type": "Late",
+            "score": {
+                "base": 94,
+                "good": 94,
+                "average": 77,
+                "bad": 68,
+                "terrible": 60
+            }
+        },
+        {
+            "name": "Tactical Tweak",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Tail Held High",
+            "score": 217
+        },
+        {
+            "name": "Thunderbolt Step",
+            "check-type": "Medium",
+            "score": {
+                "base": 191,
+                "good": 191,
+                "average": 157,
+                "bad": 139,
+                "terrible": 122
+            }
+        },
+        {
+            "name": "Top Pick",
+            "check-type": "Dirt",
+            "score": 217
+        },
+        {
+            "name": "Uma Stan",
+            "score": 217
+        },
+        {
+            "name": "Unyielding Spirit",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Up-Tempo",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Updrafters",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        }
+    ],
+    "blue": [
+        {
+            "name": "A Small Breather",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "After-School Stroll",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Calm in a Crowd",
+            "score": 217
+        },
+        {
+            "name": "Corner Recovery ○",
+            "score": 217
+        },
+        {
+            "name": "Deep Breaths",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Extra Tank",
+            "check-type": "Long",
+            "score": {
+                "base": 217,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Hydrate",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Lay Low",
+            "score": 217
+        },
+        {
+            "name": "Levelheaded",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Moxie",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Pace Strategy",
+            "score": 217
+        },
+        {
+            "name": "Passing Pro",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Preferred Position",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Rosy Outlook",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Shake It Out",
+            "score": 217
+        },
+        {
+            "name": "Soft Step",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Stamina to Spare",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Standing By",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Straightaway Recovery",
+            "score": 217
+        },
+        {
+            "name": "Triple 7s",
+            "score": 217
+        },
+        {
+            "name": "Wait-and-See",
+            "check-type": "Sprint",
+            "score": {
+                "base": 152,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Watchful Eye",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        }
+    ],
+    "green": [
+        {
+            "name": "Chukyo Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Chukyo Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Cloudy Days ○",
+            "score": 129
+        },
+        {
+            "name": "Cloudy Days ◎",
+            "score": 174
+        },
+        {
+            "name": "Competitive Spirit ○",
+            "score": 129
+        },
+        {
+            "name": "Competitive Spirit ◎",
+            "score": 174
+        },
+        {
+            "name": "End Closer Savvy ○",
+            "check-type": "End",
+            "score": {
+                "base": 139,
+                "good": 191,
+                "average": 157,
+                "bad": 139,
+                "terrible": 122
+            }
+        },
+        {
+            "name": "End Closer Savvy ◎",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Fall Runner ○",
+            "score": 129
+        },
+        {
+            "name": "Fall Runner ◎",
+            "score": 174
+        },
+        {
+            "name": "Firm Conditions ○",
+            "score": 129
+        },
+        {
+            "name": "Firm Conditions ◎",
+            "score": 174
+        },
+        {
+            "name": "Front Runner Savvy ○",
+            "check-type": "Front",
+            "score": {
+                "base": 139,
+                "good": 191,
+                "average": 157,
+                "bad": 139,
+                "terrible": 122
+            }
+        },
+        {
+            "name": "Front Runner Savvy ◎",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Fukushima Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Fukushima Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Hakodate Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Hakodate Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Hanshin Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Hanshin Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Inner Post Proficiency ○",
+            "score": 129
+        },
+        {
+            "name": "Inner Post Proficiency ◎",
+            "score": 174
+        },
+        {
+            "name": "Kokura Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Kokura Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Kyoto Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Kyoto Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Late Surger Savvy ○",
+            "check-type": "Late",
+            "score": {
+                "base": 191,
+                "good": 191,
+                "average": 157,
+                "bad": 139,
+                "terrible": 122
+            }
+        },
+        {
+            "name": "Late Surger Savvy ◎",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Left-Handed ○",
+            "score": 129
+        },
+        {
+            "name": "Left-Handed ◎",
+            "score": 174
+        },
+        {
+            "name": "Lone Wolf",
+            "score": 129
+        },
+        {
+            "name": "Long Shot ○",
+            "score": 129
+        },
+        {
+            "name": "Long Shot ◎",
+            "score": 174
+        },
+        {
+            "name": "Lucky Seven",
+            "score": 174
+        },
+        {
+            "name": "Maverick ○",
+            "score": 129
+        },
+        {
+            "name": "Maverick ◎",
+            "score": 174
+        },
+        {
+            "name": "Nakayama Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Nakayama Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Niigata Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Niigata Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Non-Standard Distance ○",
+            "score": 129
+        },
+        {
+            "name": "Non-Standard Distance ◎",
+            "score": 174
+        },
+        {
+            "name": "Oi Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Oi Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Outer Post Proficiency ○",
+            "score": 129
+        },
+        {
+            "name": "Outer Post Proficiency ◎",
+            "score": 174
+        },
+        {
+            "name": "Pace Chaser Savvy ○",
+            "check-type": "Pace",
+            "score": {
+                "base": 157,
+                "good": 191,
+                "average": 157,
+                "bad": 139,
+                "terrible": 122
+            }
+        },
+        {
+            "name": "Pace Chaser Savvy ◎",
+            "check-type": "Pace",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Rainy Days ○",
+            "score": 129
+        },
+        {
+            "name": "Rainy Days ◎",
+            "score": 174
+        },
+        {
+            "name": "Right-Handed ○",
+            "score": 129
+        },
+        {
+            "name": "Right-Handed ◎",
+            "score": 174
+        },
+        {
+            "name": "Sapporo Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Sapporo Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Snowy Days ○",
+            "score": 129
+        },
+        {
+            "name": "Snowy Days ◎",
+            "score": 174
+        },
+        {
+            "name": "Spring Runner ○",
+            "score": 129
+        },
+        {
+            "name": "Spring Runner ◎",
+            "score": 174
+        },
+        {
+            "name": "Standard Distance ○",
+            "score": 129
+        },
+        {
+            "name": "Standard Distance ◎",
+            "score": 174
+        },
+        {
+            "name": "Summer Runner ○",
+            "score": 129
+        },
+        {
+            "name": "Summer Runner ◎",
+            "score": 174
+        },
+        {
+            "name": "Sunny Days ○",
+            "score": 129
+        },
+        {
+            "name": "Sunny Days ◎",
+            "score": 174
+        },
+        {
+            "name": "Sympathy",
+            "score": 129
+        },
+        {
+            "name": "Target in Sight ○",
+            "score": 129
+        },
+        {
+            "name": "Target in Sight ◎",
+            "score": 174
+        },
+        {
+            "name": "Tokyo Racecourse ○",
+            "score": 129
+        },
+        {
+            "name": "Tokyo Racecourse ◎",
+            "score": 174
+        },
+        {
+            "name": "Wet Conditions ○",
+            "score": 129
+        },
+        {
+            "name": "Wet Conditions ◎",
+            "score": 174
+        },
+        {
+            "name": "Winter Runner ○",
+            "score": 129
+        },
+        {
+            "name": "Winter Runner ◎",
+            "score": 174
+        }
+    ],
+    "red": [
+        {
+            "name": "Disorient",
+            "check-type": "Pace",
+            "score": {
+                "base": 77,
+                "good": 94,
+                "average": 77,
+                "bad": 68,
+                "terrible": 60
+            }
+        },
+        {
+            "name": "Flustered End Closers",
+            "score": 217
+        },
+        {
+            "name": "Flustered Front Runners",
+            "score": 217
+        },
+        {
+            "name": "Flustered Late Surgers",
+            "score": 217
+        },
+        {
+            "name": "Flustered Pace Chasers",
+            "score": 217
+        },
+        {
+            "name": "Frenzied End Closers",
+            "score": 174
+        },
+        {
+            "name": "Frenzied Front Runners",
+            "score": 174
+        },
+        {
+            "name": "Frenzied Late Surgers",
+            "score": 174
+        },
+        {
+            "name": "Frenzied Pace Chasers",
+            "score": 174
+        },
+        {
+            "name": "Hesitant End Closers",
+            "score": 217
+        },
+        {
+            "name": "Hesitant Front Runners",
+            "score": 217
+        },
+        {
+            "name": "Hesitant Late Surgers",
+            "score": 217
+        },
+        {
+            "name": "Hesitant Pace Chasers",
+            "score": 217
+        },
+        {
+            "name": "Intense Gaze",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Intimidate",
+            "check-type": "Sprint",
+            "score": {
+                "base": 183,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Murmur",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Opening Gambit",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Restart",
+            "check-type": "Front",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Sharp Gaze",
+            "check-type": "Late",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Smoke Screen",
+            "check-type": "Long",
+            "score": {
+                "base": 142,
+                "good": 142,
+                "average": 116,
+                "bad": 103,
+                "terrible": 90
+            }
+        },
+        {
+            "name": "Speed Eater",
+            "check-type": "Mile",
+            "score": {
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Stamina Eater",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Stop Right There!",
+            "check-type": "Sprint",
+            "score": {
+                "base": 183,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Subdued End Closers",
+            "score": 217
+        },
+        {
+            "name": "Subdued Front Runners",
+            "score": 217
+        },
+        {
+            "name": "Subdued Late Surgers",
+            "score": 217
+        },
+        {
+            "name": "Subdued Pace Chasers",
+            "score": 217
+        },
+        {
+            "name": "Tether",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Trick (Front)",
+            "score": 217
+        },
+        {
+            "name": "Trick (Rear)",
+            "score": 217
+        }
+    ],
+    "purple": [
+        {
+            "name": "Chukyo Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Corner Acceleration ×",
+            "score": -262
+        },
+        {
+            "name": "Corner Adept ×",
+            "score": -262
+        },
+        {
+            "name": "Corner Recovery ×",
+            "score": -262
+        },
+        {
+            "name": "Defeatist",
+            "score": -262
+        },
+        {
+            "name": "Fall Runner ×",
+            "score": -129
+        },
+        {
+            "name": "Firm Conditions ×",
+            "score": -129
+        },
+        {
+            "name": "Fukushima Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "G1 Averseness",
+            "score": -129
+        },
+        {
+            "name": "Gatekept",
+            "score": -174
+        },
+        {
+            "name": "Hakodate Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Hanshin Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Inner Post Averseness",
+            "score": -129
+        },
+        {
+            "name": "Kokura Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Kyoto Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Left-Handed ×",
+            "score": -129
+        },
+        {
+            "name": "Nakayama Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Niigata Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Non-Standard Distance ×",
+            "score": -129
+        },
+        {
+            "name": "Oi Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Outer Post Averseness",
+            "score": -129
+        },
+        {
+            "name": "Paddock Fright",
+            "score": -129
+        },
+        {
+            "name": "Rainy Days ×",
+            "score": -129
+        },
+        {
+            "name": "Right-Handed ×",
+            "score": -129
+        },
+        {
+            "name": "Sapporo Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Spring Runner ×",
+            "score": -129
+        },
+        {
+            "name": "Standard Distance ×",
+            "score": -129
+        },
+        {
+            "name": "Summer Runner ×",
+            "score": -129
+        },
+        {
+            "name": "Tokyo Racecourse ×",
+            "score": -129
+        },
+        {
+            "name": "Wallflower",
+            "score": -129
+        },
+        {
+            "name": "Wet Conditions ×",
+            "score": -129
+        },
+        {
+            "name": "Winter Runner ×",
+            "score": -129
+        }
+    ]
+}

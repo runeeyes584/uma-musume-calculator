@@ -1,0 +1,64 @@
+{
+    "uma_musume": [
+        {
+            "id": 1,
+            "name": "Agnes Tachyon",
+            "image": "assets/avatars/agnes_tachyon.png"
+        },
+        {
+            "id": 2,
+            "name": "Air Groove",
+            "image": "assets/avatars/air_groove.png"
+        },
+        {
+            "id": 3,
+            "name": "El Condor Pasa",
+            "image": "assets/avatars/el_condor_pasa.png"
+        },
+        {
+            "id": 4,
+            "name": "Haru Urara",
+            "image": "assets/avatars/haru_urara.png"
+        },
+        {
+            "id": 5,
+            "name": "King Halo",
+            "image": "assets/avatars/king_halo.png"
+        },
+        {
+            "id": 6,
+            "name": "Mayano Top Gun",
+            "image": "assets/avatars/mayano_top_gun.png"
+        },
+        {
+            "id": 7,
+            "name": "Mejiro Ryan",
+            "image": "assets/avatars/mejiro_ryan.png"
+        },
+        {
+            "id": 8,
+            "name": "Nice Nature",
+            "image": "assets/avatars/nice_nature.png"
+        },
+        {
+            "id": 9,
+            "name": "Sakura Bakushin",
+            "image": "assets/avatars/sakura_bakushin.png"
+        },
+        {
+            "id": 10,
+            "name": "Super Creek",
+            "image": "assets/avatars/super_creek.png"
+        },
+        {
+            "id": 11,
+            "name": "Matikanefukutitaru",
+            "image": "assets/avatars/thay_boi.png"
+        },
+        {
+            "id": 12,
+            "name": "Winning Ticket",
+            "image": "assets/avatars/winning_ticket.png"
+        }
+    ]
+}

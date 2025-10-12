@@ -68,7 +68,7 @@ Uma/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/[username]/uma-musume-calculator.git
+   git clone https://github.com/runeeyes584/uma-musume-calculator.git
    cd uma-musume-calculator
    ```
 
@@ -114,8 +114,8 @@ This is currently a solo project by **Kaleidoscope Runeeyes**. If you'd like to 
 
 ## Contact
 
-- **Facebook**: [Link to be added]
-- **Email**: [Email to be added]
+- **Facebook**: [https://www.facebook.com/HCruneeyes]
+- **Email**: [anhtienle428@gmail.com]
 
 ## Development Notes
 

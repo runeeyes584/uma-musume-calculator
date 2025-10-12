@@ -59,6 +59,11 @@
             "id": 12,
             "name": "Winning Ticket",
             "image": "assets/avatars/winning_ticket.png"
+        },
+        {
+            "id": 13,
+            "name": "All Umas/Any Uma",
+            "image": "assets/avatars/all_umas.jpg"
         }
     ]
 }

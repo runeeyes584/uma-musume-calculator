@@ -93,8 +93,9 @@ logs
 *.temp
 
 # Audio files (user will add their own)
-assets/audio/*.mp3
-assets/audio/*.ogg
-assets/audio/*.wav
-assets/audio/*.m4a
+# Uncomment lines below if you don't want to include audio files
+# assets/audio/*.mp3
+# assets/audio/*.ogg
+# assets/audio/*.wav
+# assets/audio/*.m4a
 !assets/audio/README.md

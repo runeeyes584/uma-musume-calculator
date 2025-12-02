@@ -86,6 +86,7 @@ const UniqueSkill = (function() {
             const currentUma = window.DataManager.getCurrentUma();
             if (!currentUma) {
                 this.clearSkillDisplay();
+                this.clearConditionEffectDisplay();
                 return;
             }
             
@@ -94,6 +95,9 @@ const UniqueSkill = (function() {
             // Get unique skills from uma_musume.json
             const uniqueSkills = currentUma.unique_skills || [];
             const description = currentUma.description || '';
+            const condition = currentUma.condition || '';
+            const effect = currentUma.effect || '';
+            const imgSkill = currentUma.img_skill || '';
             
             if (uniqueSkills.length > 0) {
                 // Show first unique skill (or could cycle based on star rating)
@@ -101,11 +105,19 @@ const UniqueSkill = (function() {
                 console.log(`Displaying unique skill: ${skillName}`);
                 this.updateSkillDisplay({
                     name: skillName,
-                    description: description
+                    description: description,
+                    imgSkill: imgSkill
+                });
+                
+                // Update condition and effect display
+                this.updateConditionEffectDisplay({
+                    condition: condition,
+                    effect: effect
                 });
             } else {
                 console.log(`No unique skills found for ${currentUma.name}`);
                 this.clearSkillDisplay();
+                this.clearConditionEffectDisplay();
             }
         },
 
@@ -139,7 +151,7 @@ const UniqueSkill = (function() {
 
         /**
          * Update skill display
-         * @param {Object} skill - Skill object with name and description
+         * @param {Object} skill - Skill object with name, description, and imgSkill
          */
         updateSkillDisplay(skill) {
             // Update skill name
@@ -154,10 +166,11 @@ const UniqueSkill = (function() {
                 skillDesc.textContent = skill.description;
             }
             
-            // Update formula display
-            const formula = document.querySelector('.formula');
-            if (formula) {
-                formula.textContent = skill.name;
+            // Update skill icon image
+            const skillIcon = document.getElementById('unique-skill-img');
+            if (skillIcon && skill.imgSkill) {
+                skillIcon.src = skill.imgSkill;
+                skillIcon.alt = skill.name || 'Unique Skill';
             }
         },
 
@@ -178,6 +191,53 @@ const UniqueSkill = (function() {
             const formula = document.querySelector('.formula');
             if (formula) {
                 formula.textContent = '---';
+            }
+        },
+
+        /**
+         * Update condition and effect display in Character Details section
+         * @param {Object} data - Object with condition and effect
+         */
+        updateConditionEffectDisplay(data) {
+            // Update condition
+            const conditionElement = document.getElementById('unique-condition');
+            if (conditionElement) {
+                if (Array.isArray(data.condition) && data.condition.length > 0) {
+                    // Create line breaks for each condition item
+                    conditionElement.innerHTML = data.condition.map(item => item.trim()).join('<br>');
+                } else if (typeof data.condition === 'string' && data.condition) {
+                    conditionElement.textContent = data.condition;
+                } else {
+                    conditionElement.textContent = '-';
+                }
+            }
+            
+            // Update effect
+            const effectElement = document.getElementById('unique-effect');
+            if (effectElement) {
+                if (Array.isArray(data.effect) && data.effect.length > 0) {
+                    // Create line breaks for each effect item
+                    effectElement.innerHTML = data.effect.map(item => item.trim()).join('<br>');
+                } else if (typeof data.effect === 'string' && data.effect) {
+                    effectElement.textContent = data.effect;
+                } else {
+                    effectElement.textContent = '-';
+                }
+            }
+        },
+
+        /**
+         * Clear condition and effect display
+         */
+        clearConditionEffectDisplay() {
+            const conditionElement = document.getElementById('unique-condition');
+            if (conditionElement) {
+                conditionElement.textContent = '-';
+            }
+            
+            const effectElement = document.getElementById('unique-effect');
+            if (effectElement) {
+                effectElement.textContent = '-';
             }
         }
     };

@@ -7,7 +7,18 @@
             "unique_skills": [
                 "U=ma2"
             ],
-            "description": ""
+            "img_skill": "assets/img/recovery_unique_skill.png",
+            "description": " If you're near the front during a corner in the second half of the race, your speed will increase and your stamina will recover.",
+            "condition": [
+                "- You're currently on any corner",
+                "- Race is in its half or later ",
+                "- You're currently first, second, or third ",
+                "- You're in top 40% race pack."
+            ],
+            "effect": [
+                "- Base duration: 4s",
+                "- Stamina Recovery (0.055) & Increase Target Speed (0.25)"
+            ]
         },
         {
             "id": 2,
@@ -16,7 +27,15 @@
             "unique_skills": [
                 "OMG! (ﾟ∀ﾟ) The Final Sprint! ☆"
             ],
-            "description": ""
+            "description": "If you overtake others at least twice at the end of the race, your speed will increase.",
+            "condition": [
+                "- You have overtaken another girl at least 3 times since entering the Late-Race."
+            ],
+            "effect": [
+                "- Base duration: 5 s",
+                "- Increase Target Speed (0.35) & Increase Lane Movement Speed (0.035)"
+            ],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 3,
@@ -25,7 +44,18 @@
             "unique_skills": [
                 "Blazing Pride"
             ],
-            "description": ""
+            "description": "If you're not in the front during the Final Corner and are passing someone, your speed will increase.",
+            "condition": [
+                "- U've overtaken another uma.",
+                "- U're currently on the last corner or beyond it.",
+                "- U're currently on any corner.",
+                "- U're currently first, second, or third."
+            ],
+            "effect": [
+                "- Base duration: 5 s",
+                "- Effect: Increase Target Speed (0.35)"
+            ],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 4,
@@ -34,7 +64,10 @@
             "unique_skills": [
                 "Eternal Moments"
             ],
-            "description": ""
+            "description": "If you're near the front during the mid-race and try to overtake someone, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 5,
@@ -43,7 +76,10 @@
             "unique_skills": [
                 "∴win Q.E.D."
             ],
-            "description": ""
+            "description": "Increase velocity by deriving the winning equation when passing another runner toward the front on the final corner or later.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 6,
@@ -52,7 +88,10 @@
             "unique_skills": [
                 "#LookatCurren"
             ],
-            "description": ""
+            "description": " Gain momentum and begin to advance when passing another runner while well-positioned around halfway through the race.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 7,
@@ -61,7 +100,10 @@
             "unique_skills": [
                 "Resplendent Red Ace"
             ],
-            "description": ""
+            "description": "If you're competing for the first position during the second half of the race, your speed and acceleration will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 8,
@@ -70,7 +112,10 @@
             "unique_skills": [
                 "Schwarzes Schwert"
             ],
-            "description": ""
+            "description": "Increase velocity in a dash for the lead after running calmly and according to plan up until the final straight.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 9,
@@ -79,7 +124,10 @@
             "unique_skills": [
                 "Victoria por plancha ☆"
             ],
-            "description": ""
+            "description": "Hang onto the advantage when positioned toward the front with energy to spare on the final straight.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 10,
@@ -88,7 +136,10 @@
             "unique_skills": [
                 "Condor's Fury"
             ],
-            "description": ""
+            "description": " During the last corner, gain acceleration when aiming for the lead from the middle of the pack",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/acceleration_unique_skill.png"
         },
         {
             "id": 11,
@@ -97,7 +148,10 @@
             "unique_skills": [
                 "Lights of Vaudeville"
             ],
-            "description": ""
+            "description": "Greatly increase velocity with a dazzling display when just breaking out of the pack toward the front on the final straight.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 12,
@@ -106,16 +160,22 @@
             "unique_skills": [
                 "KEEP IT REAL."
             ],
-            "description": ""
+            "description": "Moderately increase acceleration steadily with a wink when starting to make a move from midpack in the second half of the race.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/acceleration_unique_skill.png"
         },
         {
             "id": 13,
             "name": "Gold City (Festival)",
-            "image": "assets/avatars/gold_city.png",
+            "image": "assets/avatars/gold_city_festival.png",
             "unique_skills": [
                 "Dancing in the Leaves"
             ],
-            "description": ""
+            "description": " If you're blocked in the middle of the pack at the final corner, it will become easier to get out.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 14,
@@ -124,7 +184,10 @@
             "unique_skills": [
                 "Anchors Aweigh!"
             ],
-            "description": ""
+            "description": "If you're in the second half of the pack halfway through the race, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 15,
@@ -133,7 +196,10 @@
             "unique_skills": [
                 "Where There's a Will, There's a Way"
             ],
-            "description": ""
+            "description": " Increase velocity with a strong turn of foot when passing another runner toward the back on the final straight.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 16,
@@ -142,7 +208,10 @@
             "unique_skills": [
                 "Superior Heal"
             ],
-            "description": ""
+            "description": "During the mid-race, if you're not in the front and someone overtakes you, your stamina will greatly recover.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/recovery_unique_skill.png"
         },
         {
             "id": 17,
@@ -151,7 +220,10 @@
             "unique_skills": [
                 "Super-Duper Climax"
             ],
-            "description": ""
+            "description": "When in the back in last corner, restore your stamina when you see another girl.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/recovery_unique_skill.png"
         },
         {
             "id": 18,
@@ -160,7 +232,10 @@
             "unique_skills": [
                 "YUMMY☆SPEED!"
             ],
-            "description": ""
+            "description": " Kick forward hard with renewed vigor when starting to get tired while well-positioned halfway through the race.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 19,
@@ -169,7 +244,10 @@
             "unique_skills": [
                 "You and Me! One-on-One!"
             ],
-            "description": ""
+            "description": " Increase velocity on the final straight after passing another runner on the outside toward the back on the final corner or later.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 20,
@@ -178,7 +256,10 @@
             "unique_skills": [
                 "A Princess Must Seize Victory!"
             ],
-            "description": ""
+            "description": " Increase velocity with pretty princess power when engaged in a challenge on the final straight.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 21,
@@ -187,7 +268,10 @@
             "unique_skills": [
                 "Prideful King"
             ],
-            "description": ""
+            "description": " After proceeding through the race calmly, your speed drastically increases during the last 200m",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 22,
@@ -196,7 +280,10 @@
             "unique_skills": [
                 "Chasing After You"
             ],
-            "description": ""
+            "description": "If you're in the middle of the pack in the second half of the race, your speed will increase while draining the speed of the girls ahead of you.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 23,
@@ -205,7 +292,10 @@
             "unique_skills": [
                 "Red Shift/LP1211-M"
             ],
-            "description": ""
+            "description": "If you're in the first half of the pack (and not worse than 5th) on the Final Corner or beyond, your acceleration will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/acceleration_unique_skill.png"
         },
         {
             "id": 24,
@@ -214,7 +304,10 @@
             "unique_skills": [
                 "A Kiss for Courage"
             ],
-            "description": ""
+            "description": "In the second half of the race, increase speed when you recover stamina with your skills while being in front.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 25,
@@ -223,7 +316,10 @@
             "unique_skills": [
                 "I See Victory in My Future!"
             ],
-            "description": ""
+            "description": "When the front is packed during the late-race of the race, the oracle's power will open a path.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 26,
@@ -232,7 +328,10 @@
             "unique_skills": [
                 "Bountiful Harvest"
             ],
-            "description": ""
+            "description": "During the second half of the race, if you're not in the front and someone is trying to overtake you, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 27,
@@ -241,7 +340,10 @@
             "unique_skills": [
                 "Flashy☆Landing"
             ],
-            "description": ""
+            "description": " If you're competing for the lead on the Final Corner or beyond, your speed and acceleration will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 28,
@@ -250,7 +352,10 @@
             "unique_skills": [
                 "Flowery☆Maneuver"
             ],
-            "description": ""
+            "description": "Increase velocity when passing another runner toward the front on the final corner. If passing toward the back, increase acceleration instead.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 29,
@@ -259,7 +364,10 @@
             "unique_skills": [
                 "Moving Past, and Beyond"
             ],
-            "description": ""
+            "description": "If you keep your calm in the middle of the pack during a Middle or late-race corner, your acceleration will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/acceleration_unique_skill.png"
         },
         {
             "id": 30,
@@ -268,7 +376,10 @@
             "unique_skills": [
                 "The Duty of Dignity Calls"
             ],
-            "description": ""
+            "description": "Increase velocity with the determination to not be overtaken when positioned toward the front on the final corner.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 31,
@@ -277,7 +388,10 @@
             "unique_skills": [
                 "Legacy of the Strong"
             ],
-            "description": ""
+            "description": " Increase velocity continuously when pressured by another runner and running out of energy toward the front on the final corner or later.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 32,
@@ -286,7 +400,10 @@
             "unique_skills": [
                 "Let's Pump Some Iron!"
             ],
-            "description": ""
+            "description": "Increase acceleration as you attempt to overtake on a corner in the late-race or beyond.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/acceleration_unique_skill.png"
         },
         {
             "id": 33,
@@ -295,7 +412,10 @@
             "unique_skills": [
                 "I Never Goof Up!"
             ],
-            "description": ""
+            "description": "Aim for the front with unwavering determination when passing another runner from midpack or further back on a corner late-race.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 34,
@@ -304,7 +424,10 @@
             "unique_skills": [
                 "G00 1st. F∞;"
             ],
-            "description": ""
+            "description": "If you didn't have a late start to the race, and you're in the front during the Final Straight, your speed will increase; bonus speed if you've been in the front for the entire race.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 35,
@@ -313,7 +436,10 @@
             "unique_skills": [
                 "Shadow Break"
             ],
-            "description": ""
+            "description": "If you're passing from the outside during the Final Corner or beyond, your speed will increase; if someone was blocking you from the side during the mid-race, your speed will increase even more.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 36,
@@ -322,16 +448,23 @@
             "unique_skills": [
                 "Nemesis"
             ],
-            "description": ""
+            "description": "If you're overtaking someone on the Final Corner or beyond from the middle of the pack, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 37,
             "name": "Nice Nature",
             "image": "assets/avatars/nice_nature.png",
             "unique_skills": [
-                "Just a Little Farther!"
+                "Just a Little Farther!",
+                "I can win sometimes, right?"
             ],
-            "description": ""
+            "description": "When you're in 3rd place at the end of the race and about to lose, you gain a little bit more fighting spirit and lightly increase your speed.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 38,
@@ -340,7 +473,10 @@
             "unique_skills": [
                 "Triumphant Pulse"
             ],
-            "description": ""
+            "description": "Be close to the lead during the last 200m to make it easier to break through and find a way through the field.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 39,
@@ -349,7 +485,10 @@
             "unique_skills": [
                 "Blue Rose Closer"
             ],
-            "description": ""
+            "description": "If you've overtaken another girl in the front during the late-race or beyond, then on the Final Straight, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 40,
@@ -358,7 +497,10 @@
             "unique_skills": [
                 "Every Rose Has Its Fangs"
             ],
-            "description": ""
+            "description": "During the mid-race, if you're in the first half of the pack but aren't in the lead, your speed will slightly increase, your stamina will recover, and you will drain stamina from all enemies ahead of you.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/recovery_unique_skill.png"
         },
         {
             "id": 41,
@@ -367,7 +509,10 @@
             "unique_skills": [
                 "Genius x Bakushin = Victory"
             ],
-            "description": ""
+            "description": "During the later half of the race, your speed increases when competing for the lead.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 42,
@@ -376,7 +521,10 @@
             "unique_skills": [
                 "Angling and Scheming"
             ],
-            "description": ""
+            "description": "If you're in the first position on any corner in the late-race or beyond, your acceleration will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/acceleration_unique_skill.png"
         },
         {
             "id": 43,
@@ -385,7 +533,10 @@
             "unique_skills": [
                 "The View from the Lead Is Mine!"
             ],
-            "description": ""
+            "description": "If you're in the first position during the second half of the race, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 44,
@@ -394,7 +545,10 @@
             "unique_skills": [
                 "SPARKLY☆STARDOM"
             ],
-            "description": ""
+            "description": "If you're in the front during a mid-race straight and competing for position, your speed and acceleration will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 45,
@@ -403,7 +557,10 @@
             "unique_skills": [
                 "Shooting Star"
             ],
-            "description": ""
+            "description": "During the late-race or beyond, if you've overtaken someone in the first half of the pack, your acceleration will slightly increase and you will get a speed boost.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 46,
@@ -412,7 +569,10 @@
             "unique_skills": [
                 "Dazzl'n ♪ Diver"
             ],
-            "description": ""
+            "description": "During the mid-race, if you activate at least two skills and are in the middle of the pack, your speed will increase and your stamina will recover.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/recovery_unique_skill.png"
         },
         {
             "id": 47,
@@ -421,7 +581,10 @@
             "unique_skills": [
                 "Pure Heart"
             ],
-            "description": ""
+            "description": " If you're in a good position in the mid-race, your stamina will recover.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/recovery_unique_skill.png"
         },
         {
             "id": 48,
@@ -430,7 +593,10 @@
             "unique_skills": [
                 "Give Mummy a Hug ♡"
             ],
-            "description": ""
+            "description": "If you're in front after the final corner and about to overtake another girl, your speed and acceleration will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 49,
@@ -439,7 +605,10 @@
             "unique_skills": [
                 "Behold Thine Emperor's Divine Might"
             ],
-            "description": ""
+            "description": "During the late-race of the race make three overtakes to strongly increase your speed on the final straight.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 50,
@@ -448,7 +617,10 @@
             "unique_skills": [
                 "Arrows Whistle, Shadows Disperse"
             ],
-            "description": ""
+            "description": "If someone has been trying to overtake you in the first half of the pack during the late-race or beyond, then on the Final Corner, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 51,
@@ -457,7 +629,10 @@
             "unique_skills": [
                 "This Dance Is for Vittoria!"
             ],
-            "description": ""
+            "description": "If you're in the front during the Final Corner or beyond and there's another girl nearby, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 52,
@@ -466,7 +641,10 @@
             "unique_skills": [
                 "Shooting for Victory!"
             ],
-            "description": ""
+            "description": "If you're in the middle of the pack during the second half of the final corner, your acceleration will increase",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/acceleration_unique_skill.png"
         },
         {
             "id": 53,
@@ -475,7 +653,10 @@
             "unique_skills": [
                 "Sky-High Teio Step"
             ],
-            "description": ""
+            "description": "If you tried to overtake another girl right in front of you anywhere during the late-race or later, then on the Final Straight, your speed will greatly increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 54,
@@ -484,7 +665,10 @@
             "unique_skills": [
                 "Certain Victory"
             ],
-            "description": ""
+            "description": "If you're chasing after another girl in the front during the Final Corner or beyond, your speed on the Final Straight will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 55,
@@ -493,7 +677,10 @@
             "unique_skills": [
                 "Pop & Polish"
             ],
-            "description": ""
+            "description": "If you're in the front during the Final Straight and you've been trying to overtake someone or someone has been trying to overtake you, your speed will increase.",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 56,
@@ -502,7 +689,10 @@
             "unique_skills": [
                 "Cut and Drive!"
             ],
-            "description": ""
+            "description": "Increase speed when close to the lead in last 200m",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 57,
@@ -511,14 +701,26 @@
             "unique_skills": [
                 "Our Ticket to Win!"
             ],
-            "description": ""
+            "description": "If you're competing for the lead on the Final Corner or beyond, your speed during the Final Straight will increase",
+            "condition": [],
+            "effect": [],
+            "img_skill": "assets/img/velocity_unique_skill.png"
         },
         {
             "id": 58,
             "name": "All Umas/Any Uma",
-            "image": "assets/avatars/all_umas.jpg",
-            "unique_skills": [],
-            "description": ""
+            "image": "assets/avatars/tokino_minoru.png",
+            "unique_skills": [
+                "In Your Mind & In Your Love"
+            ],
+            "description": "Just believe in yourself and your friends, and your uma will appear here, just kidding~",
+            "condition": [
+                "- Don't trust Tokino Mi- ahh, i mean Tazuna-san.",
+                "- Under 100%, everything is 50/50.",
+                "- 99% gamblers will stop before their big win."
+            ],
+            "effect": ["- If you get blocked, ahh ... RNG games ..."],
+            "img_skill": "assets/img/track_condition_skills_rare.png"
         }
     ]
 }

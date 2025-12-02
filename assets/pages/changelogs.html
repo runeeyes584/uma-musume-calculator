@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelogs - Uma Musume Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .changelog-section {
+            margin-bottom: 40px;
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+        }
+
+        .changelog-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .version-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .version-title {
+            font-size: 1.8em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .version-date {
+            background: #f0f0f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .change-category {
+            margin-bottom: 20px;
+        }
+
+        .category-title {
+            font-size: 1.2em;
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .category-icon {
+            font-size: 1.3em;
+        }
+
+        .change-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .change-list li {
+            padding: 8px 0 8px 30px;
+            position: relative;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .change-list li:before {
+            content: "→";
+            position: absolute;
+            left: 10px;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+
+        .badge-new {
+            background: #4caf50;
+            color: white;
+        }
+
+        .badge-improved {
+            background: #2196f3;
+            color: white;
+        }
+
+        .badge-fixed {
+            background: #ff9800;
+            color: white;
+        }
+
+        .badge-breaking {
+            background: #f44336;
+            color: white;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .language-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .language-toggle:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
+        }
+
+        .stats-bar {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .version-title {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button class="language-toggle" onclick="toggleLanguage()">🌐 <span id="lang-btn-text">Tiếng Việt</span></button>
+            <h1>📋 <span data-en="Changelogs" data-vi="Lịch Sử Cập Nhật">Changelogs</span></h1>
+            <p><span data-en="Uma Musume Calculator - Version History" data-vi="Máy Tính Uma Musume - Lịch Sử Phiên Bản">Uma Musume Calculator - Version History</span></p>
+        </div>
+
+        <div class="content">
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number">58</div>
+                    <div class="stat-label" data-en="Uma Musume" data-vi="Uma Musume">Uma Musume</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">439</div>
+                    <div class="stat-label" data-en="Skills" data-vi="Kỹ Năng">Skills</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">57</div>
+                    <div class="stat-label" data-en="Avatars" data-vi="Hình Đại Diện">Avatars</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label" data-en="Aptitudes" data-vi="Năng Khiếu">Aptitudes</div>
+                </div>
+            </div>
+
+            <!-- Version 3.0.0 -->
+            <div class="changelog-section">
+                <div class="version-header">
+                    <span class="version-title">Version 3.0.0</span>
+                    <span class="version-date">December 2, 2025</span>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">✨</span>
+                        <span data-en="New Features" data-vi="Tính Năng Mới">New Features</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Auto-save & restore system using localStorage" data-vi="Hệ thống tự động lưu & khôi phục dữ liệu với localStorage">Auto-save & restore system using localStorage</span><span class="badge badge-new" data-en="NEW" data-vi="MỚI">NEW</span></li>
+                        <li><span data-en="Unique skill icon display from uma_musume.json" data-vi="Hiển thị icon kỹ năng độc nhất từ uma_musume.json">Unique skill icon display from uma_musume.json</span><span class="badge badge-new" data-en="NEW" data-vi="MỚI">NEW</span></li>
+                        <li><span data-en="Unique Skill Effect & Condition section with detailed info" data-vi="Mục Hiệu Ứng & Điều Kiện Kỹ Năng Độc Nhất với thông tin chi tiết">Unique Skill Effect & Condition section with detailed info</span><span class="badge badge-new" data-en="NEW" data-vi="MỚI">NEW</span></li>
+                        <li><span data-en="Individual avatar images for 57/58 Uma (98.3% coverage)" data-vi="Hình đại diện riêng cho 57/58 Uma (bao phủ 98.3%)">Individual avatar images for 57/58 Uma (98.3% coverage)</span><span class="badge badge-new" data-en="NEW" data-vi="MỚI">NEW</span></li>
+                        <li><span data-en="Aptitude auto-adjustment system (4-tier: S-A, B-C, D-E-F, G)" data-vi="Hệ thống tự động điều chỉnh năng khiếu (4 bậc: S-A, B-C, D-E-F, G)">Aptitude auto-adjustment system (4-tier: S-A, B-C, D-E-F, G)</span><span class="badge badge-new" data-en="NEW" data-vi="MỚI">NEW</span></li>
+                        <li><span data-en="Vietnamese comprehensive guide (HUONG_DAN.md)" data-vi="Hướng dẫn toàn diện bằng tiếng Việt (HUONG_DAN.md)">Vietnamese comprehensive guide (HUONG_DAN.md)</span><span class="badge badge-new" data-en="NEW" data-vi="MỚI">NEW</span></li>
+                    </ul>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">🔧</span>
+                        <span data-en="Improvements" data-vi="Cải Tiến">Improvements</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Skills alphabetically sorted in all dropdowns (439 total)" data-vi="Kỹ năng sắp xếp theo thứ tự ABC trong tất cả dropdown (439 tổng)">Skills alphabetically sorted in all dropdowns (439 total)</span><span class="badge badge-improved" data-en="IMPROVED" data-vi="CẢI TIẾN">IMPROVED</span></li>
+                        <li><span data-en="Aptitude multipliers applied to skill scoring (1.0/0.8/0.6/0.5)" data-vi="Hệ số năng khiếu áp dụng cho điểm kỹ năng (1.0/0.8/0.6/0.5)">Aptitude multipliers applied to skill scoring (1.0/0.8/0.6/0.5)</span><span class="badge badge-improved" data-en="IMPROVED" data-vi="CẢI TIẾN">IMPROVED</span></li>
+                        <li><span data-en="Unique skill data stored in uma_musume.json with condition/effect arrays" data-vi="Dữ liệu kỹ năng độc nhất lưu trong uma_musume.json với mảng condition/effect">Unique skill data stored in uma_musume.json with condition/effect arrays</span><span class="badge badge-improved" data-en="IMPROVED" data-vi="CẢI TIẾN">IMPROVED</span></li>
+                        <li><span data-en="StorageManager module for state persistence" data-vi="Module StorageManager để lưu trữ trạng thái">StorageManager module for state persistence</span><span class="badge badge-improved" data-en="IMPROVED" data-vi="CẢI TIẾN">IMPROVED</span></li>
+                        <li><span data-en="Enhanced UI for Unique Skill Effect & Condition display" data-vi="Nâng cấp giao diện hiển thị Hiệu Ứng & Điều Kiện Kỹ Năng">Enhanced UI for Unique Skill Effect & Condition display</span><span class="badge badge-improved" data-en="IMPROVED" data-vi="CẢI TIẾN">IMPROVED</span></li>
+                    </ul>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">📊</span>
+                        <span data-en="Data Updates" data-vi="Cập Nhật Dữ Liệu">Data Updates</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Updated skills database: 362 → 439 skills (+77, +21.3%)" data-vi="Cập nhật cơ sở dữ liệu kỹ năng: 362 → 439 kỹ năng (+77, +21.3%)">Updated skills database: 362 → 439 skills (+77, +21.3%)</span></li>
+                        <li><span data-en="IUS Skills: 45 → 57 (+12)" data-vi="Kỹ Năng IUS: 45 → 57 (+12)">IUS Skills: 45 → 57 (+12)</span></li>
+                        <li><span data-en="Golden Skills: 74 → 114 (+40)" data-vi="Kỹ Năng Vàng: 74 → 114 (+40)">Golden Skills: 74 → 114 (+40)</span></li>
+                        <li><span data-en="Yellow Skills: 86 → 106 (+20)" data-vi="Kỹ Năng Vàng Nhạt: 86 → 106 (+20)">Yellow Skills: 86 → 106 (+20)</span></li>
+                        <li><span data-en="Blue Skills: 22 → 26 (+4)" data-vi="Kỹ Năng Xanh Dương: 22 → 26 (+4)">Blue Skills: 22 → 26 (+4)</span></li>
+                        <li><span data-en="Green Skills: 73 → 74 (+1)" data-vi="Kỹ Năng Xanh Lá: 73 → 74 (+1)">Green Skills: 73 → 74 (+1)</span></li>
+                        <li><span data-en="Added aptitudes.json with 43 Uma × 10 aptitude types" data-vi="Thêm aptitudes.json với 43 Uma × 10 loại năng khiếu">Added aptitudes.json with 43 Uma × 10 aptitude types</span></li>
+                        <li><span data-en="Added img_skill field to all Uma entries" data-vi="Thêm trường img_skill cho tất cả các Uma">Added img_skill field to all Uma entries</span></li>
+                    </ul>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">🐛</span>
+                        <span data-en="Bug Fixes" data-vi="Sửa Lỗi">Bug Fixes</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Fixed data loss on page reload" data-vi="Sửa lỗi mất dữ liệu khi tải lại trang">Fixed data loss on page reload</span><span class="badge badge-fixed" data-en="FIXED" data-vi="ĐÃ SỬA">FIXED</span></li>
+                        <li><span data-en="Fixed unique skill not displaying from uma_musume.json" data-vi="Sửa lỗi kỹ năng độc nhất không hiển thị từ uma_musume.json">Fixed unique skill not displaying from uma_musume.json</span><span class="badge badge-fixed" data-en="FIXED" data-vi="ĐÃ SỬA">FIXED</span></li>
+                        <li><span data-en="Fixed aptitude select boxes width (50px → 60px)" data-vi="Sửa độ rộng ô chọn năng khiếu (50px → 60px)">Fixed aptitude select boxes width (50px → 60px)</span><span class="badge badge-fixed" data-en="FIXED" data-vi="ĐÃ SỬA">FIXED</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Version 2.0.0 -->
+            <div class="changelog-section">
+                <div class="version-header">
+                    <span class="version-title">Version 2.0.0</span>
+                    <span class="version-date" data-en="October 2025" data-vi="Tháng 10, 2025">October 2025</span>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">🔄</span>
+                        <span data-en="Major Refactoring" data-vi="Tái Cấu Trúc Lớn">Major Refactoring</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Modularized JavaScript: 1355-line monolith → 8 focused modules" data-vi="Modular hóa JavaScript: Từ 1355 dòng khối lớn → 8 module tập trung">Modularized JavaScript: 1355-line monolith → 8 focused modules</span><span class="badge badge-breaking" data-en="BREAKING" data-vi="BREAKING">BREAKING</span></li>
+                        <li><span data-en="Skills Database v2.0: Split 2627-line file → 7 color-based files" data-vi="Cơ sở dữ liệu Kỹ Năng v2.0: Tách file 2627 dòng → 7 file theo màu">Skills Database v2.0: Split 2627-line file → 7 color-based files</span></li>
+                        <li><span data-en="Introduced IIFE pattern for all modules" data-vi="Áp dụng mẫu IIFE cho tất cả module">Introduced IIFE pattern for all modules</span></li>
+                        <li><span data-en="Added metadata tracking (id, rarity, updated, check_type)" data-vi="Thêm theo dõi metadata (id, rarity, updated, check_type)">Added metadata tracking (id, rarity, updated, check_type)</span></li>
+                    </ul>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">🛠️</span>
+                        <span data-en="Build Tools" data-vi="Công Cụ Build">Build Tools</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Python 3 scripts: split_skills.py, merge_skills.py" data-vi="Script Python 3: split_skills.py, merge_skills.py">Python 3 scripts: split_skills.py, merge_skills.py</span></li>
+                        <li><span data-en="TSV import/export workflow for Excel editing" data-vi="Quy trình import/export TSV để chỉnh sửa bằng Excel">TSV import/export workflow for Excel editing</span></li>
+                        <li><span data-en="validate_skills.py for data integrity checks" data-vi="validate_skills.py để kiểm tra tính toàn vẹn dữ liệu">validate_skills.py for data integrity checks</span></li>
+                        <li><span data-en="Windows batch helper (tsv.bat)" data-vi="Tiện ích batch Windows (tsv.bat)">Windows batch helper (tsv.bat)</span></li>
+                    </ul>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">📝</span>
+                        <span data-en="Documentation" data-vi="Tài Liệu">Documentation</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Created 7 comprehensive documentation files" data-vi="Tạo 7 file tài liệu toàn diện">Created 7 comprehensive documentation files</span></li>
+                        <li><span data-en="TSV workflow guides (Quick Start, Detailed Guide)" data-vi="Hướng dẫn quy trình TSV (Khởi Đầu Nhanh, Hướng Dẫn Chi Tiết)">TSV workflow guides (Quick Start, Detailed Guide)</span></li>
+                        <li><span data-en="Skill templates and implementation notes" data-vi="Mẫu kỹ năng và ghi chú triển khai">Skill templates and implementation notes</span></li>
+                        <li><span data-en="Refactoring summary and changelog" data-vi="Tóm tắt tái cấu trúc và changelog">Refactoring summary and changelog</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Version 1.0.0 -->
+            <div class="changelog-section">
+                <div class="version-header">
+                    <span class="version-title">Version 1.0.0</span>
+                    <span class="version-date" data-en="Initial Release" data-vi="Phát Hành Ban Đầu">Initial Release</span>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">🎉</span>
+                        <span data-en="Initial Features" data-vi="Tính Năng Ban Đầu">Initial Features</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Basic Uma Musume calculator interface" data-vi="Giao diện máy tính Uma Musume cơ bản">Basic Uma Musume calculator interface</span></li>
+                        <li><span data-en="5 stats calculation (Speed, Stamina, Power, Guts, Wisdom)" data-vi="Tính toán 5 chỉ số (Tốc Độ, Thể Lực, Sức Mạnh, Can Đảm, Trí Tuệ)">5 stats calculation (Speed, Stamina, Power, Guts, Wisdom)</span></li>
+                        <li><span data-en="Star rating system (1-5 stars)" data-vi="Hệ thống xếp hạng sao (1-5 sao)">Star rating system (1-5 stars)</span></li>
+                        <li><span data-en="Skills management with color categories" data-vi="Quản lý kỹ năng theo danh mục màu">Skills management with color categories</span></li>
+                        <li><span data-en="Character selection dropdown" data-vi="Menu chọn nhân vật">Character selection dropdown</span></li>
+                        <li><span data-en="Overall score calculation" data-vi="Tính toán điểm tổng thể">Overall score calculation</span></li>
+                        <li><span data-en="Responsive CSS Grid layout" data-vi="Bố cục CSS Grid responsive">Responsive CSS Grid layout</span></li>
+                        <li><span data-en="Background music support" data-vi="Hỗ trợ nhạc nền">Background music support</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="../../index.html" class="back-button"><span data-en="← Back to Calculator" data-vi="← Quay Về Máy Tính">← Back to Calculator</span></a>
+        </div>
+    </div>
+
+    <script>
+        // Language toggle functionality
+        let currentLang = localStorage.getItem('changelogLanguage') || 'en';
+
+        function toggleLanguage() {
+            currentLang = currentLang === 'en' ? 'vi' : 'en';
+            localStorage.setItem('changelogLanguage', currentLang);
+            updateLanguage();
+        }
+
+        function updateLanguage() {
+            const elements = document.querySelectorAll('[data-en][data-vi]');
+            const langBtnText = document.getElementById('lang-btn-text');
+            
+            elements.forEach(element => {
+                if (currentLang === 'vi') {
+                    element.textContent = element.getAttribute('data-vi');
+                } else {
+                    element.textContent = element.getAttribute('data-en');
+                }
+            });
+
+            // Update button text
+            if (langBtnText) {
+                langBtnText.textContent = currentLang === 'en' ? 'Tiếng Việt' : 'English';
+            }
+
+            console.log(`Language switched to: ${currentLang}`);
+        }
+
+        // Initialize language on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            updateLanguage();
+        });
+    </script>
+</body>
+</html>

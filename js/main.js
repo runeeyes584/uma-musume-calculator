@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Setup Uma select change listener
         setupUmaSelectListener();
         
+        // Setup auto-save and restore state
+        setTimeout(() => {
+            StorageManager.setupAutoSave();
+            StorageManager.restoreState();
+        }, 1000);
+        
         // Verify unique skill score is working
         setTimeout(() => {
             console.log('=== VERIFICATION: Unique Skill Score System ===');

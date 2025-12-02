@@ -1,0 +1,1419 @@
+[
+  {
+    "id": "yellow_001",
+    "name": "Ignited Spirit SPD",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 263,
+    "description": ""
+  },
+  {
+    "id": "yellow_002",
+    "name": "Ignited Spirit PWR",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 263,
+    "description": ""
+  },
+  {
+    "id": "yellow_003",
+    "name": "Ignited Spirit GUT",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 263,
+    "description": ""
+  },
+  {
+    "id": "yellow_004",
+    "name": "Ignited Spirit WIT",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 263,
+    "description": ""
+  },
+  {
+    "id": "yellow_005",
+    "name": "Corner Adept ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_006",
+    "name": "Straightaway Adept",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_007",
+    "name": "Ramp Up",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_008",
+    "name": "Homestretch Haste",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_009",
+    "name": "Fast-Paced",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_010",
+    "name": "Prepared to Pass",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_011",
+    "name": "Position Pilfer",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_012",
+    "name": "Outer Swell",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_013",
+    "name": "Masterful Gambit",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_014",
+    "name": "Gap Closer",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_015",
+    "name": "Productive Plan",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_016",
+    "name": "Up-Tempo",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_017",
+    "name": "Steadfast",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_018",
+    "name": "Inside Scoop",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_019",
+    "name": "Sprint Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_020",
+    "name": "Sprint Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_021",
+    "name": "Sprint Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_022",
+    "name": "Sprint Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_023",
+    "name": "Huge Lead",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_024",
+    "name": "Mile Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 236,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_025",
+    "name": "Mile Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_026",
+    "name": "Mile Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 236,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_027",
+    "name": "Mile Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_028",
+    "name": "Shifting Gears",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_029",
+    "name": "Unyielding Spirit",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_030",
+    "name": "Medium Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 288,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_031",
+    "name": "Medium Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_032",
+    "name": "Medium Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 288,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_033",
+    "name": "Medium Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_034",
+    "name": "Long Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_035",
+    "name": "Long Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_036",
+    "name": "Long Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_037",
+    "name": "Long Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_038",
+    "name": "Keeping the Lead",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_039",
+    "name": "Pressure",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_040",
+    "name": "Front Runner Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 183,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_041",
+    "name": "Front Runner Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_042",
+    "name": "Front Runner Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 183,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_043",
+    "name": "Front Runner Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_044",
+    "name": "Leader's Pride",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_045",
+    "name": "Pace Chaser Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 236,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_046",
+    "name": "Pace Chaser Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_047",
+    "name": "Pace Chaser Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 236,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_048",
+    "name": "Pace Chaser Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_049",
+    "name": "Late Surger Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 288,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_050",
+    "name": "Late Surger Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_051",
+    "name": "Later Surger Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 288,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_052",
+    "name": "Late Surger Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_053",
+    "name": "1,500,000 CC",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_054",
+    "name": "End Closer Straightaways ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_055",
+    "name": "End Closer Straightaways ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_056",
+    "name": "End Closer Corners ◎",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_057",
+    "name": "End Closer Corners ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_058",
+    "name": "Uma Stan",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_059",
+    "name": "Tail Held High",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_060",
+    "name": "Slipstream",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_061",
+    "name": "Playtime's Over!",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_062",
+    "name": "Top Pick",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Dirt",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_063",
+    "name": "Corner Acceleration ○",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_064",
+    "name": "Straightaway Acceleration",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_065",
+    "name": "Nimble Navigator",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "yellow_066",
+    "name": "Early Lead",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_067",
+    "name": "Final Push",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_068",
+    "name": "Head-On",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_069",
+    "name": "Slick Surge",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_070",
+    "name": "Straightaway Spurt",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_071",
+    "name": "Sprinting Gear",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_072",
+    "name": "Updrafters",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_073",
+    "name": "Countermeasure",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_074",
+    "name": "Acceleration",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_075",
+    "name": "Second Wind",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_076",
+    "name": "Shrewd Step",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_077",
+    "name": "Straight Descent",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_078",
+    "name": "Tactical Tweak",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_079",
+    "name": "Fighter",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_080",
+    "name": "Highlander",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_081",
+    "name": "Groundwork",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_082",
+    "name": "Prudent Positioning",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "yellow_083",
+    "name": "Go with the Flow",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "yellow_084",
+    "name": "Meticulous Measures",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 139,
+      "good": 191,
+      "average": 157,
+      "bad": 139,
+      "terrible": 122
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_085",
+    "name": "Thunderbolt Step",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 191,
+      "good": 191,
+      "average": 157,
+      "bad": 139,
+      "terrible": 122
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_086",
+    "name": "Dodging Danger",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 90,
+      "good": 143,
+      "average": 116,
+      "bad": 103,
+      "terrible": 90
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_087",
+    "name": "Focus",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "yellow_088",
+    "name": "Hawkeye",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 142,
+      "good": 142,
+      "average": 116,
+      "bad": 103,
+      "terrible": 90
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_089",
+    "name": "Studious",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 94,
+      "good": 94,
+      "average": 77,
+      "bad": 68,
+      "terrible": 60
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_090",
+    "name": "I Can See Right Through You",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 68,
+      "good": 94,
+      "average": 77,
+      "bad": 68,
+      "terrible": 60
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_091",
+    "name": "Strategist",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 68,
+      "good": 94,
+      "average": 77,
+      "bad": 68,
+      "terrible": 60
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_092",
+    "name": "All I've Got",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_093",
+    "name": "Feature Act",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_094",
+    "name": "Early Start",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_095",
+    "name": "Risky Business",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "yellow_096",
+    "name": "Light as a Feather",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_097",
+    "name": "Fighting Spirit",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_098",
+    "name": "Eager",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_099",
+    "name": "Pumped",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_100",
+    "name": "Fearless",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_101",
+    "name": "With All My Soul",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_102",
+    "name": "Full Throttle",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_103",
+    "name": "Downhill Speedster",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "yellow_104",
+    "name": "Take the Chance",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "yellow_105",
+    "name": "Forward, March!",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "check_type": "Dirt",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "yellow_106",
+    "name": "Glittering Star",
+    "rarity": "yellow",
+    "updated": "2025-12-02",
+    "score": 263,
+    "description": ""
+  }
+]

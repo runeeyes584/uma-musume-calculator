@@ -1,0 +1,330 @@
+[
+  {
+    "id": "blue_001",
+    "name": "Be Still",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_002",
+    "name": "Familiar Ground",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Dirt",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "blue_003",
+    "name": "Free-Spirited",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_004",
+    "name": "Ignited Spirit STA",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 263,
+    "description": ""
+  },
+  {
+    "id": "blue_005",
+    "name": "Corner Recovery ○",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "blue_006",
+    "name": "Straightaway Recovery",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "blue_007",
+    "name": "Lay Low",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "blue_008",
+    "name": "Pace Strategy",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "blue_009",
+    "name": "Calm in a Crowd",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "blue_010",
+    "name": "Stamina to Spare",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_011",
+    "name": "Preferred Position",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_012",
+    "name": "Standing By",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_013",
+    "name": "Wait-and-See",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_014",
+    "name": "Watchful Eye",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_015",
+    "name": "Rosy Outlook",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_016",
+    "name": "Deep Breaths",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_017",
+    "name": "Extra Tank",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 217,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_018",
+    "name": "Soft Step",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_019",
+    "name": "Passing Pro",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_020",
+    "name": "Moxie",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_021",
+    "name": "Hydrate",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_022",
+    "name": "A Small Breather",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_023",
+    "name": "After-School Stroll",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_024",
+    "name": "Levelheaded",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "blue_025",
+    "name": "Triple 7s",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "blue_026",
+    "name": "Shake It Out",
+    "rarity": "blue",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  }
+]

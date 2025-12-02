@@ -1,0 +1,1470 @@
+[
+  {
+    "id": "golden_001",
+    "name": "Burning Spirit SPD",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 633,
+    "description": ""
+  },
+  {
+    "id": "golden_002",
+    "name": "Burning Spirit STA",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 633,
+    "description": ""
+  },
+  {
+    "id": "golden_003",
+    "name": "Burning Spirit PWR",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 633,
+    "description": ""
+  },
+  {
+    "id": "golden_004",
+    "name": "Burning Spirit GUT",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 633,
+    "description": ""
+  },
+  {
+    "id": "golden_005",
+    "name": "Burning Spirit WIT",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 633,
+    "description": ""
+  },
+  {
+    "id": "golden_006",
+    "name": "Runaway",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 259,
+      "good": 407,
+      "average": 333,
+      "bad": 296,
+      "terrible": 259
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_007",
+    "name": "Super Lucky Seven",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 334,
+    "description": ""
+  },
+  {
+    "id": "golden_008",
+    "name": "Fall Frenzy",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 461,
+    "description": ""
+  },
+  {
+    "id": "golden_009",
+    "name": "Spring Spectacle",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 461,
+    "description": ""
+  },
+  {
+    "id": "golden_010",
+    "name": "Right-Handed Demon",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 461,
+    "description": ""
+  },
+  {
+    "id": "golden_011",
+    "name": "Yodo Invicta",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 461,
+    "description": ""
+  },
+  {
+    "id": "golden_012",
+    "name": "Firm Course Menace",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 461,
+    "description": ""
+  },
+  {
+    "id": "golden_013",
+    "name": "Swinging Maestro",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_014",
+    "name": "Breath of Fresh Air",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_015",
+    "name": "Iron Will",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_016",
+    "name": "Indomitable",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_017",
+    "name": "Unruffled",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_018",
+    "name": "Calm and Collected",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_019",
+    "name": "Race Planner",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_020",
+    "name": "Sleeping Lion",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_021",
+    "name": "Keen Eye",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_022",
+    "name": "Trackblazer",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_023",
+    "name": "Cooldown",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_024",
+    "name": "Adrenaline Rush",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 508,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_025",
+    "name": "Miraculous Step",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_026",
+    "name": "Restless",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 356,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_027",
+    "name": "Gourmand",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_028",
+    "name": "Relax",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_029",
+    "name": "Go-Home Specialist",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_030",
+    "name": "Serenity",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_031",
+    "name": "Lie in Wait",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_032",
+    "name": "VIP Pass",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_033",
+    "name": "Of Calm Mind",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_034",
+    "name": "Master of the Sands",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Dirt",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_035",
+    "name": "Professor of Curvature",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_036",
+    "name": "Beeline Burst",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_037",
+    "name": "It's On!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_038",
+    "name": "In Body and Mind",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_039",
+    "name": "Escape Artist",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 356,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_040",
+    "name": "Speed Star",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_041",
+    "name": "Fast & Furious",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_042",
+    "name": "Rising Dragon",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_043",
+    "name": "Sturm und Drang",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_044",
+    "name": "Blinding Flash",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_045",
+    "name": "Mile Maven",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_046",
+    "name": "Killer Tunes",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_047",
+    "name": "Unyielding",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_048",
+    "name": "Innate Experience",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_049",
+    "name": "Staggering Lead",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_050",
+    "name": "Changing Gears",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_051",
+    "name": "Big-Sisterly",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 301,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_052",
+    "name": "Vanguard Spirit",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_053",
+    "name": "Overwhelming Pressure",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_054",
+    "name": "15,000,000 CC",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 367,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_055",
+    "name": "Trending in the Charts!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Dirt",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_056",
+    "name": "Corner Connoisseur",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_057",
+    "name": "Rushing Gale!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_058",
+    "name": "No Stopping Me!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 394,
+    "description": ""
+  },
+  {
+    "id": "golden_059",
+    "name": "Taking the Lead",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 234,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_060",
+    "name": "Unrestrained",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 356,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_061",
+    "name": "On Your Left!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_062",
+    "name": "Encroaching Shadow",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_063",
+    "name": "Turbo Sprint",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_064",
+    "name": "Furious Feat",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_065",
+    "name": "Plan X",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_066",
+    "name": "Step on the Gas!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_067",
+    "name": "Technician",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 301,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_068",
+    "name": "Determined Descent",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 301,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_069",
+    "name": "Shatterproof",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 301,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_070",
+    "name": "Hard Worker",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 367,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_071",
+    "name": "Center Stage",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 334,
+    "description": ""
+  },
+  {
+    "id": "golden_072",
+    "name": "Lane Legerdemain",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 334,
+    "description": ""
+  },
+  {
+    "id": "golden_073",
+    "name": "Perfect Prep!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 315,
+      "good": 433,
+      "average": 355,
+      "bad": 315,
+      "terrible": 276
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_074",
+    "name": "Lightning Step",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 433,
+      "good": 433,
+      "average": 355,
+      "bad": 315,
+      "terrible": 276
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_075",
+    "name": "Sixth Sense",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 234,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_076",
+    "name": "Concentration",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 394,
+    "description": ""
+  },
+  {
+    "id": "golden_077",
+    "name": "Clairvoyance",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 367,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_078",
+    "name": "The Bigger Picture",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 367,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_079",
+    "name": "The Coast Is Clear!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 267,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_080",
+    "name": "Crusader",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 267,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_081",
+    "name": "Superstan",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_082",
+    "name": "Come What May",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_083",
+    "name": "Tail Nine",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_084",
+    "name": "Headliner",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_085",
+    "name": "Daring Strike",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_086",
+    "name": "Nothing Ventured",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 334,
+    "description": ""
+  },
+  {
+    "id": "golden_087",
+    "name": "Flash Forward",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_088",
+    "name": "In High Spirits",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_089",
+    "name": "Blast Forward",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_090",
+    "name": "Top Runner",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 356,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_091",
+    "name": "Burning Soul",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_092",
+    "name": "Elated",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_093",
+    "name": "Full of Vigor",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_094",
+    "name": "Dauntless",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_095",
+    "name": "Wild Wind",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_096",
+    "name": "See Ya Later!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_097",
+    "name": "Keep Going!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_098",
+    "name": "Moonlit Flash",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_099",
+    "name": "Refraction Arc",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_100",
+    "name": "From the Brink",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_101",
+    "name": "Neck and Neck",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_102",
+    "name": "Lead the Charge!",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Dirt",
+    "score": 394,
+    "description": ""
+  },
+  {
+    "id": "golden_103",
+    "name": "Radiant Star",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 633,
+    "description": ""
+  },
+  {
+    "id": "golden_104",
+    "name": "Best in Japan",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_105",
+    "name": "Tantalizing Trick",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "score": 508,
+    "description": ""
+  },
+  {
+    "id": "golden_106",
+    "name": "Dominator",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_107",
+    "name": "Petrifying Gaze",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_108",
+    "name": "Adored by All",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 406,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_109",
+    "name": "Battle Formation",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 457,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_110",
+    "name": "Mystifying Murmur",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_111",
+    "name": "Stamina Siphon",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 369,
+      "good": 507,
+      "average": 415,
+      "bad": 369,
+      "terrible": 323
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_112",
+    "name": "All-Seeing Eyes",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 559,
+      "good": 559,
+      "average": 457,
+      "bad": 406,
+      "terrible": 356
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_113",
+    "name": "Illusionist",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 267,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  },
+  {
+    "id": "golden_114",
+    "name": "Dazzling Disorientation",
+    "rarity": "golden",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 301,
+      "good": 367,
+      "average": 301,
+      "bad": 267,
+      "terrible": 234
+    },
+    "description": ""
+  }
+]

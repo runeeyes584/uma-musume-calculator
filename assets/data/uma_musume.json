@@ -3,67 +3,522 @@
         {
             "id": 1,
             "name": "Agnes Tachyon",
-            "image": "assets/avatars/agnes_tachyon.png"
+            "image": "assets/avatars/agnes_tachyon.png",
+            "unique_skills": [
+                "U=ma2"
+            ],
+            "description": ""
         },
         {
             "id": 2,
-            "name": "Air Groove",
-            "image": "assets/avatars/air_groove.png"
+            "name": "Agnes Digital",
+            "image": "assets/avatars/agnes_digital.png",
+            "unique_skills": [
+                "OMG! (ﾟ∀ﾟ) The Final Sprint! ☆"
+            ],
+            "description": ""
         },
         {
             "id": 3,
-            "name": "El Condor Pasa",
-            "image": "assets/avatars/el_condor_pasa.png"
+            "name": "Air Groove",
+            "image": "assets/avatars/air_groove.png",
+            "unique_skills": [
+                "Blazing Pride"
+            ],
+            "description": ""
         },
         {
             "id": 4,
-            "name": "Haru Urara",
-            "image": "assets/avatars/haru_urara.png"
+            "name": "Air Groove (Wedding)",
+            "image": "assets/avatars/air_groove_wedding.png",
+            "unique_skills": [
+                "Eternal Moments"
+            ],
+            "description": ""
         },
         {
             "id": 5,
-            "name": "King Halo",
-            "image": "assets/avatars/king_halo.png"
+            "name": "Biwa Hayahide",
+            "image": "assets/avatars/biwa.png",
+            "unique_skills": [
+                "∴win Q.E.D."
+            ],
+            "description": ""
         },
         {
             "id": 6,
-            "name": "Mayano Top Gun",
-            "image": "assets/avatars/mayano_top_gun.png"
+            "name": "Curren Chan",
+            "image": "assets/avatars/current.png",
+            "unique_skills": [
+                "#LookatCurren"
+            ],
+            "description": ""
         },
         {
             "id": 7,
-            "name": "Mejiro Ryan",
-            "image": "assets/avatars/mejiro_ryan.png"
+            "name": "Daiwa Scarlet",
+            "image": "assets/avatars/daiwa.png",
+            "unique_skills": [
+                "Resplendent Red Ace"
+            ],
+            "description": ""
         },
         {
             "id": 8,
-            "name": "Nice Nature",
-            "image": "assets/avatars/nice_nature.png"
+            "name": "Eishin Flash",
+            "image": "assets/avatars/elshin_flash.png",
+            "unique_skills": [
+                "Schwarzes Schwert"
+            ],
+            "description": ""
         },
         {
             "id": 9,
-            "name": "Sakura Bakushin",
-            "image": "assets/avatars/sakura_bakushin.png"
+            "name": "El Condor Pasa",
+            "image": "assets/avatars/el_condor_pasa.png",
+            "unique_skills": [
+                "Victoria por plancha ☆"
+            ],
+            "description": ""
         },
         {
             "id": 10,
-            "name": "Super Creek",
-            "image": "assets/avatars/super_creek.png"
+            "name": "El Condor Pasa (Fantasy)",
+            "image": "assets/avatars/el_condor_pasa_fantasy.png",
+            "unique_skills": [
+                "Condor's Fury"
+            ],
+            "description": ""
         },
         {
             "id": 11,
-            "name": "Matikanefukutitaru",
-            "image": "assets/avatars/thay_boi.png"
+            "name": "Fuji Kiseki",
+            "image": "assets/avatars/fuji_kiseki.png",
+            "unique_skills": [
+                "Lights of Vaudeville"
+            ],
+            "description": ""
         },
         {
             "id": 12,
-            "name": "Winning Ticket",
-            "image": "assets/avatars/winning_ticket.png"
+            "name": "Gold City",
+            "image": "assets/avatars/gold_city.png",
+            "unique_skills": [
+                "KEEP IT REAL."
+            ],
+            "description": ""
         },
         {
             "id": 13,
+            "name": "Gold City (Festival)",
+            "image": "assets/avatars/gold_city.png",
+            "unique_skills": [
+                "Dancing in the Leaves"
+            ],
+            "description": ""
+        },
+        {
+            "id": 14,
+            "name": "Gold Ship",
+            "image": "assets/avatars/goldship.png",
+            "unique_skills": [
+                "Anchors Aweigh!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 15,
+            "name": "Grass Wonder",
+            "image": "assets/avatars/grass_wonder.png",
+            "unique_skills": [
+                "Where There's a Will, There's a Way"
+            ],
+            "description": ""
+        },
+        {
+            "id": 16,
+            "name": "Grass Wonder (Fantasy)",
+            "image": "assets/avatars/grass_wonder_fantasy.png",
+            "unique_skills": [
+                "Superior Heal"
+            ],
+            "description": ""
+        },
+        {
+            "id": 17,
+            "name": "Haru Urara",
+            "image": "assets/avatars/haru_urara.png",
+            "unique_skills": [
+                "Super-Duper Climax"
+            ],
+            "description": ""
+        },
+        {
+            "id": 18,
+            "name": "Hishi Akebono",
+            "image": "assets/avatars/hishi_akebono.png",
+            "unique_skills": [
+                "YUMMY☆SPEED!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 19,
+            "name": "Hishi Amazon",
+            "image": "assets/avatars/hishi_amazon.png",
+            "unique_skills": [
+                "You and Me! One-on-One!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 20,
+            "name": "Kawakami Princess",
+            "image": "assets/avatars/kawakami_princess.png",
+            "unique_skills": [
+                "A Princess Must Seize Victory!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 21,
+            "name": "King Halo",
+            "image": "assets/avatars/king_halo.png",
+            "unique_skills": [
+                "Prideful King"
+            ],
+            "description": ""
+        },
+        {
+            "id": 22,
+            "name": "Manhattan Cafe",
+            "image": "assets/avatars/manhattan_cafe.png",
+            "unique_skills": [
+                "Chasing After You"
+            ],
+            "description": ""
+        },
+        {
+            "id": 23,
+            "name": "Maruzensky",
+            "image": "assets/avatars/maruzensky.png",
+            "unique_skills": [
+                "Red Shift/LP1211-M"
+            ],
+            "description": ""
+        },
+        {
+            "id": 24,
+            "name": "Maruzensky (Summer)",
+            "image": "assets/avatars/maruzensky_summer.png",
+            "unique_skills": [
+                "A Kiss for Courage"
+            ],
+            "description": ""
+        },
+        {
+            "id": 25,
+            "name": "Matikanefukukitaru",
+            "image": "assets/avatars/thay_boi.png",
+            "unique_skills": [
+                "I See Victory in My Future!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 26,
+            "name": "Matikanefukukitaru (Full Armor)",
+            "image": "assets/avatars/matikanefukukitaru_fullarmor.png",
+            "unique_skills": [
+                "Bountiful Harvest"
+            ],
+            "description": ""
+        },
+        {
+            "id": 27,
+            "name": "Mayano Top Gun",
+            "image": "assets/avatars/mayano_top_gun.png",
+            "unique_skills": [
+                "Flashy☆Landing"
+            ],
+            "description": ""
+        },
+        {
+            "id": 28,
+            "name": "Mayano Top Gun (Wedding)",
+            "image": "assets/avatars/mayano_top_gun_wedding.png",
+            "unique_skills": [
+                "Flowery☆Maneuver"
+            ],
+            "description": ""
+        },
+        {
+            "id": 29,
+            "name": "Mejiro Dober",
+            "image": "assets/avatars/mejiro_dober.png",
+            "unique_skills": [
+                "Moving Past, and Beyond"
+            ],
+            "description": ""
+        },
+        {
+            "id": 30,
+            "name": "Mejiro McQueen",
+            "image": "assets/avatars/mejiro_mcqueen.png",
+            "unique_skills": [
+                "The Duty of Dignity Calls"
+            ],
+            "description": ""
+        },
+        {
+            "id": 31,
+            "name": "Mejiro McQueen (Anime)",
+            "image": "assets/avatars/mejiro_mcqueen_anime.png",
+            "unique_skills": [
+                "Legacy of the Strong"
+            ],
+            "description": ""
+        },
+        {
+            "id": 32,
+            "name": "Mejiro Ryan",
+            "image": "assets/avatars/mejiro_ryan.png",
+            "unique_skills": [
+                "Let's Pump Some Iron!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 33,
+            "name": "Meisho Doto",
+            "image": "assets/avatars/meisho_doto.png",
+            "unique_skills": [
+                "I Never Goof Up!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 34,
+            "name": "Mihono Bourbon",
+            "image": "assets/avatars/mihono_bourbon.png",
+            "unique_skills": [
+                "G00 1st. F∞;"
+            ],
+            "description": ""
+        },
+        {
+            "id": 35,
+            "name": "Narita Brian",
+            "image": "assets/avatars/narita_brian.png",
+            "unique_skills": [
+                "Shadow Break"
+            ],
+            "description": ""
+        },
+        {
+            "id": 36,
+            "name": "Narita Taishin",
+            "image": "assets/avatars/narita_taishin.png",
+            "unique_skills": [
+                "Nemesis"
+            ],
+            "description": ""
+        },
+        {
+            "id": 37,
+            "name": "Nice Nature",
+            "image": "assets/avatars/nice_nature.png",
+            "unique_skills": [
+                "Just a Little Farther!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 38,
+            "name": "Oguri Cap",
+            "image": "assets/avatars/oguri_cap.png",
+            "unique_skills": [
+                "Triumphant Pulse"
+            ],
+            "description": ""
+        },
+        {
+            "id": 39,
+            "name": "Rice Shower",
+            "image": "assets/avatars/rice_shower.png",
+            "unique_skills": [
+                "Blue Rose Closer"
+            ],
+            "description": ""
+        },
+        {
+            "id": 40,
+            "name": "Rice Shower (Halloween)",
+            "image": "assets/avatars/rice_shower_halloween.png",
+            "unique_skills": [
+                "Every Rose Has Its Fangs"
+            ],
+            "description": ""
+        },
+        {
+            "id": 41,
+            "name": "Sakura Bakushin O",
+            "image": "assets/avatars/sakura_bakushin.png",
+            "unique_skills": [
+                "Genius x Bakushin = Victory"
+            ],
+            "description": ""
+        },
+        {
+            "id": 42,
+            "name": "Seiun Sky",
+            "image": "assets/avatars/seiun_sky.png",
+            "unique_skills": [
+                "Angling and Scheming"
+            ],
+            "description": ""
+        },
+        {
+            "id": 43,
+            "name": "Silence Suzuka",
+            "image": "assets/avatars/silence_suzuka.png",
+            "unique_skills": [
+                "The View from the Lead Is Mine!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 44,
+            "name": "Smart Falcon",
+            "image": "assets/avatars/smart_falcon.png",
+            "unique_skills": [
+                "SPARKLY☆STARDOM"
+            ],
+            "description": ""
+        },
+        {
+            "id": 45,
+            "name": "Special Week",
+            "image": "assets/avatars/special_week.png",
+            "unique_skills": [
+                "Shooting Star"
+            ],
+            "description": ""
+        },
+        {
+            "id": 46,
+            "name": "Special Week (Summer)",
+            "image": "assets/avatars/special_week_summer.png",
+            "unique_skills": [
+                "Dazzl'n ♪ Diver"
+            ],
+            "description": ""
+        },
+        {
+            "id": 47,
+            "name": "Super Creek",
+            "image": "assets/avatars/super_creek.png",
+            "unique_skills": [
+                "Pure Heart"
+            ],
+            "description": ""
+        },
+        {
+            "id": 48,
+            "name": "Super Creek (Halloween)",
+            "image": "assets/avatars/super_creek_halloween.png",
+            "unique_skills": [
+                "Give Mummy a Hug ♡"
+            ],
+            "description": ""
+        },
+        {
+            "id": 49,
+            "name": "Symboli Rudolf",
+            "image": "assets/avatars/symboli_rudolf.png",
+            "unique_skills": [
+                "Behold Thine Emperor's Divine Might"
+            ],
+            "description": ""
+        },
+        {
+            "id": 50,
+            "name": "Symboli Rudolf (Festival)",
+            "image": "assets/avatars/symboli_rudolf_festival.png",
+            "unique_skills": [
+                "Arrows Whistle, Shadows Disperse"
+            ],
+            "description": ""
+        },
+        {
+            "id": 51,
+            "name": "T.M. Opera O",
+            "image": "assets/avatars/tm_opera.png",
+            "unique_skills": [
+                "This Dance Is for Vittoria!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 52,
+            "name": "Taiki Shuttle",
+            "image": "assets/avatars/taiki_shutle.png",
+            "unique_skills": [
+                "Shooting for Victory!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 53,
+            "name": "Tokai Teio",
+            "image": "assets/avatars/tokai_teio.png",
+            "unique_skills": [
+                "Sky-High Teio Step"
+            ],
+            "description": ""
+        },
+        {
+            "id": 54,
+            "name": "Tokai Teio (Anime)",
+            "image": "assets/avatars/tokai_teio_anime.png",
+            "unique_skills": [
+                "Certain Victory"
+            ],
+            "description": ""
+        },
+        {
+            "id": 55,
+            "name": "Tosen Jordan",
+            "image": "assets/avatars/tosen_jordan.png",
+            "unique_skills": [
+                "Pop & Polish"
+            ],
+            "description": ""
+        },
+        {
+            "id": 56,
+            "name": "Vodka",
+            "image": "assets/avatars/vodka.png",
+            "unique_skills": [
+                "Cut and Drive!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 57,
+            "name": "Winning Ticket",
+            "image": "assets/avatars/winning_ticket.png",
+            "unique_skills": [
+                "Our Ticket to Win!"
+            ],
+            "description": ""
+        },
+        {
+            "id": 58,
             "name": "All Umas/Any Uma",
-            "image": "assets/avatars/all_umas.jpg"
+            "image": "assets/avatars/all_umas.jpg",
+            "unique_skills": [],
+            "description": ""
         }
     ]
 }

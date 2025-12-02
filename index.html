@@ -6,7 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umapyoi Calculator</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <!-- Load modular JavaScript files -->
+    <script src="js/calculator.js"></script>
+    <script src="js/dataManager.js"></script>
+    <script src="js/uiUpdater.js"></script>
+    <script src="js/starRating.js"></script>
+    <script src="js/uniqueSkill.js"></script>
+    <script src="js/statsSystem.js"></script>
+    <script src="js/skillSystem.js"></script>
+    <script src="js/aptitudeSystem.js"></script>
+    <script src="js/overallScore.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -125,8 +135,8 @@
         </div>
         <div class="div4">
             <div class="avatar-container">
-                <img id="uma-avatar" src="assets/avatars/agnes_tachyon.png" alt="Uma character avatar" class="avatar-image">
-                <div class="uma-name-display" id="uma-name-display">Select an Uma</div>
+                <img id="uma-avatar" src="assets/avatars/almond_eye.png" alt="Uma character avatar" class="avatar-image">
+                <div class="uma-name-display" id="uma-name-display">Ai-chan love u</div>
             </div>
         </div>
         <div class="div5">
@@ -146,18 +156,18 @@
                 <div class="unique-skill-info">
                     <div class="unique-skill-icon">
                         <span class="sparkle">✨</span>
-                        <span class="formula">U = ma2</span>
+                        <span class="formula">UMAZING</span>
                     </div>
                     <div class="skill-description">
-                        <div class="skill-name">U = ma2</div>
+                        <div class="skill-name">Unique Skill nè</div>
                         <div class="skill-desc-text">Unique skill description goes here</div>
                     </div>
                 </div>
                 <div class="unique-level-section">
                     <label for="unique-level">Unique Level Skill:</label>
                     <select id="unique-level" name="unique-level" aria-label="Unique skill level">
-                        <option value="1">1</option>
-                        <option value="2" selected>2</option>
+                        <option value="1"selected>1</option>
+                        <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="5">5</option>
@@ -178,26 +188,18 @@
                         <div class="config-item">
                             <label for="turf">Turf</label>
                             <select id="turf" name="turf" aria-label="Turf rating">
-                                <option value="S">S</option>
-                                <option value="A" selected>A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A" selected>S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
                         <div class="config-item">
                             <label for="dirt">Dirt</label>
                             <select id="dirt" name="dirt" aria-label="Dirt rating">
-                                <option value="S">S</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A">S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G" selected>G</option>
                             </select>
                         </div>
@@ -210,52 +212,36 @@
                         <div class="config-item">
                             <label for="sprint">Sprint</label>
                             <select id="sprint" name="sprint" aria-label="Sprint rating">
-                                <option value="S">S</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C" selected>C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A">S-A</option>
+                                <option value="B-C" selected>B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
                         <div class="config-item">
                             <label for="mile">Mile</label>
                             <select id="mile" name="mile" aria-label="Mile rating">
-                                <option value="S">S</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C" selected>C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A">S-A</option>
+                                <option value="B-C" selected>B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
                         <div class="config-item">
                             <label for="medium">Medium</label>
                             <select id="medium" name="medium" aria-label="Medium rating">
-                                <option value="S">S</option>
-                                <option value="A" selected>A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A" selected>S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
                         <div class="config-item">
                             <label for="long">Long</label>
                             <select id="long" name="long" aria-label="Long rating">
-                                <option value="S">S</option>
-                                <option value="A" selected>A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A" selected>S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
@@ -268,52 +254,36 @@
                         <div class="config-item">
                             <label for="front">Front</label>
                             <select id="front" name="front" aria-label="Front rating">
-                                <option value="S">S</option>
-                                <option value="A" selected>A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A" selected>S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
                         <div class="config-item">
                             <label for="pace">Pace</label>
                             <select id="pace" name="pace" aria-label="Pace rating">
-                                <option value="S">S</option>
-                                <option value="A" selected>A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A" selected>S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
                         <div class="config-item">
                             <label for="late">Late</label>
                             <select id="late" name="late" aria-label="Late rating">
-                                <option value="S">S</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F" selected>F</option>
+                                <option value="S-A">S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F" selected>D-E-F</option>
                                 <option value="G">G</option>
                             </select>
                         </div>
                         <div class="config-item">
                             <label for="end">End</label>
                             <select id="end" name="end" aria-label="End rating">
-                                <option value="S">S</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                                <option value="D">D</option>
-                                <option value="E">E</option>
-                                <option value="F">F</option>
+                                <option value="S-A">S-A</option>
+                                <option value="B-C">B-C</option>
+                                <option value="D-E-F">D-E-F</option>
                                 <option value="G" selected>G</option>
                             </select>
                         </div>

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "purple_001",
+    "name": "Chukyo Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_002",
+    "name": "Corner Acceleration ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -262,
+    "description": ""
+  },
+  {
+    "id": "purple_003",
+    "name": "Corner Adept ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -262,
+    "description": ""
+  },
+  {
+    "id": "purple_004",
+    "name": "Corner Recovery ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -262,
+    "description": ""
+  },
+  {
+    "id": "purple_005",
+    "name": "Defeatist",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -262,
+    "description": ""
+  },
+  {
+    "id": "purple_006",
+    "name": "Fall Runner ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_007",
+    "name": "Firm Conditions ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_008",
+    "name": "Fukushima Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_009",
+    "name": "G1 Averseness",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_010",
+    "name": "Gatekept",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -174,
+    "description": ""
+  },
+  {
+    "id": "purple_011",
+    "name": "Hakodate Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_012",
+    "name": "Hanshin Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_013",
+    "name": "Inner Post Averseness",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_014",
+    "name": "Kokura Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_015",
+    "name": "Kyoto Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_016",
+    "name": "Left-Handed ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_017",
+    "name": "Nakayama Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_018",
+    "name": "Niigata Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_019",
+    "name": "Non-Standard Distance ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_020",
+    "name": "Oi Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_021",
+    "name": "Outer Post Averseness",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_022",
+    "name": "Paddock Fright",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_023",
+    "name": "Rainy Days ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_024",
+    "name": "Right-Handed ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_025",
+    "name": "Sapporo Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_026",
+    "name": "Spring Runner ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_027",
+    "name": "Standard Distance ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_028",
+    "name": "Summer Runner ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_029",
+    "name": "Tokyo Racecourse ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_030",
+    "name": "Wallflower",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_031",
+    "name": "Wet Conditions ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  },
+  {
+    "id": "purple_032",
+    "name": "Winter Runner ×",
+    "rarity": "purple",
+    "updated": "2025-12-02",
+    "score": -129,
+    "description": ""
+  }
+]

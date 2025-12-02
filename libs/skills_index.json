@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "updated": "2025-12-02",
+  "total_skills": 439,
+  "colors": [
+    "ius",
+    "golden",
+    "yellow",
+    "blue",
+    "green",
+    "red",
+    "purple"
+  ],
+  "description": "Uma Musume Skills Library - Split by color for easier management",
+  "files": {
+    "ius": {
+      "file": "skills/ius.json",
+      "count": 57
+    },
+    "golden": {
+      "file": "skills/golden.json",
+      "count": 114
+    },
+    "yellow": {
+      "file": "skills/yellow.json",
+      "count": 106
+    },
+    "blue": {
+      "file": "skills/blue.json",
+      "count": 26
+    },
+    "green": {
+      "file": "skills/green.json",
+      "count": 74
+    },
+    "red": {
+      "file": "skills/red.json",
+      "count": 30
+    },
+    "purple": {
+      "file": "skills/purple.json",
+      "count": 32
+    }
+  }
+}

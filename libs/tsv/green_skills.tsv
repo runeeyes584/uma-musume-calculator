@@ -1,0 +1,75 @@
+name	base	good	average	bad	terrible	check_type
+Right-Handed ◎	174					
+Right-Handed ○	129					
+Left-Handed ◎	174					
+Left-Handed ○	129					
+Spring Runner ◎	174					
+Spring Runner ○	129					
+Summer Runner ◎	174					
+Summer Runner ○	129					
+Fall Runner ◎	174					
+Fall Runner ○	129					
+Winter Runner ◎	174					
+Winter Runner ○	129					
+Outer Post Proficiency ◎	174					
+Outer Post Proficiency ○	129					
+Maverick ◎	174					
+Maverick ○	129					
+Long Shot ◎	174					
+Long Shot ○	129					
+Sympathy	129					
+Lone Wolf	129					
+Tokyo Racecourse ◎	174					
+Tokyo Racecourse ○	129					
+Nakayama Racecourse ◎	174					
+Nakayama Racecourse ○	129					
+Hanshin Racecourse ◎	174					
+Hanshin Racecourse ○	129					
+Kyoto Racecourse ◎	174					
+Kyoto Racecourse ○	129					
+Chukyo Racecourse ◎	174					
+Chukyo Racecourse ○	129					
+Sapporo Racecourse ◎	174					
+Sapporo Racecourse ○	129					
+Hakodate Racecourse ◎	174					
+Hakodate Racecourse ○	129					
+Fukushima Racecourse ◎	174					
+Fukushima Racecourse ○	129					
+Niigata Racecourse ◎	174					
+Niigata Racecourse ○	129					
+Kokura Racecourse ◎	174					
+Kokura Racecourse ○	129					
+Standard Distance ◎	174					
+Standard Distance ○	129					
+Non-Standard Distance ◎	174					
+Non-Standard Distance ○	129					
+Oi Racecourse ◎	174					
+Oi Racecourse ○	129					
+Restraint	217					
+Firm Conditions ◎	174					
+Firm Conditions ○	129					
+Wet Conditions ◎	174					
+Wet Conditions ○	129					
+Competitive Spirit ◎	174					
+Competitive Spirit ○	129					
+Sunny Days ◎	174					
+Sunny Days ○	129					
+Cloudy Days ◎	174					
+Cloudy Days ○	129					
+Rainy Days ◎	174					
+Rainy Days ○	129					
+Snowy Days ◎	174					
+Snowy Days ○	129					
+Target in Sight ◎	174					
+Target in Sight ○	129					
+Inner Post Proficiency ◎	174					
+Inner Post Proficiency ○	129					
+Front Runner Savvy ◎	152	239	195	174	152	Front
+Front Runner Savvy ○	122	191	157	139	122	Front
+Pace Chaser Savvy ◎	195	239	195	174	152	Pace
+Pace Chaser Savvy ○	157	191	157	139	122	Pace
+Late Surger Savvy ◎	239	239	195	174	152	Late
+Late Surger Savvy ○	191	191	157	139	122	Late
+End Closer Savvy ◎	174	239	195	174	152	End
+End Closer Savvy ○	139	191	157	139	122	End
+Lucky Seven	174					

@@ -1,0 +1,31 @@
+name	base	good	average	bad	terrible	check_type
+Hesitant Front Runners	217					
+Hesitant Pace Chasers	217					
+Hesitant Late Surgers	217					
+Hesitant End Closers	217					
+Intimidate	210	288	236	210	183	Sprint
+Speed Eater	195	239	195	174	152	Mile
+Tether	239	239	195	174	152	Medium
+Intense Gaze	174	239	195	174	152	End
+Opening Gambit	195	239	195	174	152	Mile
+Restart	152	239	195	174	152	Front
+Frenzied Front Runners	174					
+Frenzied Pace Chasers	174					
+Frenzied Late Surgers	174					
+Frenzied End Closers	174					
+Trick (Front)	217					
+Trick (Rear)	217					
+Subdued Front Runners	217					
+Flustered Front Runners	217					
+Subdued Pace Chasers	217					
+Flustered Pace Chasers	217					
+Subdued Late Surgers	217					
+Flustered Late Surgers	217					
+Subdued End Closers	217					
+Flustered End Closers	217					
+Stop Right There!	210	288	236	210	183	Sprint
+Murmur	239	239	195	174	152	Medium
+Stamina Eater	174	239	195	174	152	Long
+Sharp Gaze	239	239	195	174	152	Late
+Smoke Screen	103	142	116	103	90	Long
+Disorient	77	94	77	68	60	Pace

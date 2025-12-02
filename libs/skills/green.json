@@ -1,0 +1,650 @@
+[
+  {
+    "id": "green_001",
+    "name": "Right-Handed ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_002",
+    "name": "Right-Handed ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_003",
+    "name": "Left-Handed ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_004",
+    "name": "Left-Handed ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_005",
+    "name": "Spring Runner ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_006",
+    "name": "Spring Runner ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_007",
+    "name": "Summer Runner ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_008",
+    "name": "Summer Runner ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_009",
+    "name": "Fall Runner ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_010",
+    "name": "Fall Runner ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_011",
+    "name": "Winter Runner ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_012",
+    "name": "Winter Runner ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_013",
+    "name": "Outer Post Proficiency ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_014",
+    "name": "Outer Post Proficiency ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_015",
+    "name": "Maverick ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_016",
+    "name": "Maverick ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_017",
+    "name": "Long Shot ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_018",
+    "name": "Long Shot ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_019",
+    "name": "Sympathy",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_020",
+    "name": "Lone Wolf",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_021",
+    "name": "Tokyo Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_022",
+    "name": "Tokyo Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_023",
+    "name": "Nakayama Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_024",
+    "name": "Nakayama Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_025",
+    "name": "Hanshin Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_026",
+    "name": "Hanshin Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_027",
+    "name": "Kyoto Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_028",
+    "name": "Kyoto Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_029",
+    "name": "Chukyo Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_030",
+    "name": "Chukyo Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_031",
+    "name": "Sapporo Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_032",
+    "name": "Sapporo Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_033",
+    "name": "Hakodate Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_034",
+    "name": "Hakodate Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_035",
+    "name": "Fukushima Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_036",
+    "name": "Fukushima Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_037",
+    "name": "Niigata Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_038",
+    "name": "Niigata Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_039",
+    "name": "Kokura Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_040",
+    "name": "Kokura Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_041",
+    "name": "Standard Distance ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_042",
+    "name": "Standard Distance ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_043",
+    "name": "Non-Standard Distance ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_044",
+    "name": "Non-Standard Distance ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_045",
+    "name": "Oi Racecourse ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_046",
+    "name": "Oi Racecourse ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_047",
+    "name": "Restraint",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "green_048",
+    "name": "Firm Conditions ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_049",
+    "name": "Firm Conditions ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_050",
+    "name": "Wet Conditions ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_051",
+    "name": "Wet Conditions ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_052",
+    "name": "Competitive Spirit ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_053",
+    "name": "Competitive Spirit ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_054",
+    "name": "Sunny Days ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_055",
+    "name": "Sunny Days ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_056",
+    "name": "Cloudy Days ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_057",
+    "name": "Cloudy Days ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_058",
+    "name": "Rainy Days ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_059",
+    "name": "Rainy Days ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_060",
+    "name": "Snowy Days ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_061",
+    "name": "Snowy Days ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_062",
+    "name": "Target in Sight ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_063",
+    "name": "Target in Sight ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_064",
+    "name": "Inner Post Proficiency ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "green_065",
+    "name": "Inner Post Proficiency ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 129,
+    "description": ""
+  },
+  {
+    "id": "green_066",
+    "name": "Front Runner Savvy ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "green_067",
+    "name": "Front Runner Savvy ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 122,
+      "good": 191,
+      "average": 157,
+      "bad": 139,
+      "terrible": 122
+    },
+    "description": ""
+  },
+  {
+    "id": "green_068",
+    "name": "Pace Chaser Savvy ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "green_069",
+    "name": "Pace Chaser Savvy ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 157,
+      "good": 191,
+      "average": 157,
+      "bad": 139,
+      "terrible": 122
+    },
+    "description": ""
+  },
+  {
+    "id": "green_070",
+    "name": "Late Surger Savvy ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "green_071",
+    "name": "Late Surger Savvy ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 191,
+      "good": 191,
+      "average": 157,
+      "bad": 139,
+      "terrible": 122
+    },
+    "description": ""
+  },
+  {
+    "id": "green_072",
+    "name": "End Closer Savvy ◎",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "green_073",
+    "name": "End Closer Savvy ○",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 139,
+      "good": 191,
+      "average": 157,
+      "bad": 139,
+      "terrible": 122
+    },
+    "description": ""
+  },
+  {
+    "id": "green_074",
+    "name": "Lucky Seven",
+    "rarity": "green",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  }
+]

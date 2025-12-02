@@ -588,7 +588,8 @@ h2 {
     display: flex;
     align-items: center;
     gap: 10px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .unique-level-section label {
@@ -600,13 +601,13 @@ h2 {
     padding: 6px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-right: auto;
 }
 
 .unique-score-display {
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-left: auto;
 }
 
 .unique-score-label {
@@ -666,10 +667,11 @@ h2 {
 }
 
 .config-item select {
-    padding: 4px;
+    padding: 4px 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 50px;
+    width: 60px;
+    font-size: 13px;
 }
 
 /* Div8 - Summary */

@@ -1,0 +1,458 @@
+[
+  {
+    "id": "ius_001",
+    "name": "#LookatCurren",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_002",
+    "name": "A Kiss for Courage",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_003",
+    "name": "Anchors Aweigh!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_004",
+    "name": "Angling and Scheming",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_005",
+    "name": "Behold Thine Emperor's Divine Might",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_006",
+    "name": "Blazing Pride",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_007",
+    "name": "Blue Rose Closer",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_008",
+    "name": "Certain Victory",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_009",
+    "name": "Condor's Fury",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_010",
+    "name": "Cut and Drive!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_011",
+    "name": "Dazzl'n ♪ Diver",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_012",
+    "name": "Eternal Moments",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_013",
+    "name": "Flashy☆Landing",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_014",
+    "name": "Flowery☆Maneuver",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_015",
+    "name": "G00 1st. F∞;",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_016",
+    "name": "Genius x Bakushin = Victory",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_017",
+    "name": "I Never Goof Up!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_018",
+    "name": "I See Victory in My Future!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_019",
+    "name": "Just a Little Farther!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_020",
+    "name": "KEEP IT REAL.",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_021",
+    "name": "Legacy of the Strong",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_022",
+    "name": "Let's Pump Some Iron!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_023",
+    "name": "Lights of Vaudeville",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_024",
+    "name": "Nemesis",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_025",
+    "name": "Our Ticket to Win!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_026",
+    "name": "Prideful King",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_027",
+    "name": "Pure Heart",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_028",
+    "name": "Red Shift/LP1211-M",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_029",
+    "name": "Resplendent Red Ace",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_030",
+    "name": "Shadow Break",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_031",
+    "name": "Shooting for Victory!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_032",
+    "name": "Shooting Star",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_033",
+    "name": "Sky-High Teio Step",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_034",
+    "name": "SPARKLY☆STARDOM",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_035",
+    "name": "Super-Duper Climax",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_036",
+    "name": "Superior Heal",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_037",
+    "name": "The Duty of Dignity Calls",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_038",
+    "name": "The View from the Lead Is Mine!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_039",
+    "name": "This Dance Is for Vittoria!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_040",
+    "name": "Triumphant Pulse",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_041",
+    "name": "U=ma2",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_042",
+    "name": "Victoria por plancha ☆",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_043",
+    "name": "Where There's a Will, There's a Way",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_044",
+    "name": "You and Me! One-on-One!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_045",
+    "name": "∴win Q.E.D.",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_046",
+    "name": "Schwarzes Schwert",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_047",
+    "name": "Bountiful Harvest",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_048",
+    "name": "YUMMY☆SPEED!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_049",
+    "name": "OMG! (ﾟ∀ﾟ) The Final Sprint! ☆",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_050",
+    "name": "Give Mummy a Hug ♡",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_051",
+    "name": "Every Rose Has Its Fangs",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_052",
+    "name": "A Princess Must Seize Victory!",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_053",
+    "name": "Chasing After You",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_054",
+    "name": "Arrows Whistle, Shadows Disperse",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_055",
+    "name": "Dancing in the Leaves",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_056",
+    "name": "Pop & Polish",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  },
+  {
+    "id": "ius_057",
+    "name": "Moving Past, and Beyond",
+    "rarity": "ius",
+    "updated": "2025-12-02",
+    "score": 180,
+    "description": ""
+  }
+]

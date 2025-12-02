@@ -1,0 +1,326 @@
+[
+  {
+    "id": "red_001",
+    "name": "Hesitant Front Runners",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_002",
+    "name": "Hesitant Pace Chasers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_003",
+    "name": "Hesitant Late Surgers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_004",
+    "name": "Hesitant End Closers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_005",
+    "name": "Intimidate",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "red_006",
+    "name": "Speed Eater",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_007",
+    "name": "Tether",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_008",
+    "name": "Intense Gaze",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "End",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_009",
+    "name": "Opening Gambit",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Mile",
+    "score": {
+      "base": 195,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_010",
+    "name": "Restart",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Front",
+    "score": {
+      "base": 152,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_011",
+    "name": "Frenzied Front Runners",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "red_012",
+    "name": "Frenzied Pace Chasers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "red_013",
+    "name": "Frenzied Late Surgers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "red_014",
+    "name": "Frenzied End Closers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 174,
+    "description": ""
+  },
+  {
+    "id": "red_015",
+    "name": "Trick (Front)",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_016",
+    "name": "Trick (Rear)",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_017",
+    "name": "Subdued Front Runners",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_018",
+    "name": "Flustered Front Runners",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_019",
+    "name": "Subdued Pace Chasers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_020",
+    "name": "Flustered Pace Chasers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_021",
+    "name": "Subdued Late Surgers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_022",
+    "name": "Flustered Late Surgers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_023",
+    "name": "Subdued End Closers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_024",
+    "name": "Flustered End Closers",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "score": 217,
+    "description": ""
+  },
+  {
+    "id": "red_025",
+    "name": "Stop Right There!",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Sprint",
+    "score": {
+      "base": 210,
+      "good": 288,
+      "average": 236,
+      "bad": 210,
+      "terrible": 183
+    },
+    "description": ""
+  },
+  {
+    "id": "red_026",
+    "name": "Murmur",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Medium",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_027",
+    "name": "Stamina Eater",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 174,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_028",
+    "name": "Sharp Gaze",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Late",
+    "score": {
+      "base": 239,
+      "good": 239,
+      "average": 195,
+      "bad": 174,
+      "terrible": 152
+    },
+    "description": ""
+  },
+  {
+    "id": "red_029",
+    "name": "Smoke Screen",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Long",
+    "score": {
+      "base": 103,
+      "good": 142,
+      "average": 116,
+      "bad": 103,
+      "terrible": 90
+    },
+    "description": ""
+  },
+  {
+    "id": "red_030",
+    "name": "Disorient",
+    "rarity": "red",
+    "updated": "2025-12-02",
+    "check_type": "Pace",
+    "score": {
+      "base": 77,
+      "good": 94,
+      "average": 77,
+      "bad": 68,
+      "terrible": 60
+    },
+    "description": ""
+  }
+]

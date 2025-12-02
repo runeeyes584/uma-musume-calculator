@@ -179,54 +179,6 @@
         {
             "name": "∴win Q.E.D.",
             "score": 180
-        },
-        {
-            "name": "Schwarzes Schwert",
-            "score": 180
-        },
-        {
-            "name": "Bountiful Harvest",
-            "score": 180
-        },
-        {
-            "name": "YUMMY☆SPEED!",
-            "score": 180
-        },
-        {
-            "name": "OMG! (ﾟ∀ﾟ) The Final Sprint! ☆",
-            "score": 180
-        },
-        {
-            "name": "Give Mummy a Hug ♡",
-            "score": 180
-        },
-        {
-            "name": "Every Rose Has Its Fangs",
-            "score": 180
-        },
-        {
-            "name": "A Princess Must Seize Victory!",
-            "score": 180
-        },
-        {
-            "name": "Chasing After You",
-            "score": 180
-        },
-        {
-            "name": "Arrows Whistle, Shadows Disperse",
-            "score": 180
-        },
-        {
-            "name": "Dancing in the Leaves",
-            "score": 180
-        },
-        {
-            "name": "Pop & Polish",
-            "score": 180
-        },
-        {
-            "name": "Moving Past, and Beyond",
-            "score": 180
         }
     ],
     "golden": [
@@ -2820,11 +2772,54 @@
     ],
     "red": [
         {
-            "name": "Hesitant Front Runners",
+            "name": "Disorient",
+            "check-type": "Pace",
+            "score": {
+                "base": 77,
+                "good": 94,
+                "average": 77,
+                "bad": 68,
+                "terrible": 60
+            }
+        },
+        {
+            "name": "Flustered End Closers",
             "score": 217
         },
         {
-            "name": "Hesitant Pace Chasers",
+            "name": "Flustered Front Runners",
+            "score": 217
+        },
+        {
+            "name": "Flustered Late Surgers",
+            "score": 217
+        },
+        {
+            "name": "Flustered Pace Chasers",
+            "score": 217
+        },
+        {
+            "name": "Frenzied End Closers",
+            "score": 174
+        },
+        {
+            "name": "Frenzied Front Runners",
+            "score": 174
+        },
+        {
+            "name": "Frenzied Late Surgers",
+            "score": 174
+        },
+        {
+            "name": "Frenzied Pace Chasers",
+            "score": 174
+        },
+        {
+            "name": "Hesitant End Closers",
+            "score": 217
+        },
+        {
+            "name": "Hesitant Front Runners",
             "score": 217
         },
         {
@@ -2832,14 +2827,25 @@
             "score": 217
         },
         {
-            "name": "Hesitant End Closers",
+            "name": "Hesitant Pace Chasers",
             "score": 217
+        },
+        {
+            "name": "Intense Gaze",
+            "check-type": "End",
+            "score": {
+                "base": 174,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
         },
         {
             "name": "Intimidate",
             "check-type": "Sprint",
             "score": {
-                "base": 210,
+                "base": 183,
                 "good": 288,
                 "average": 236,
                 "bad": 210,
@@ -2847,32 +2853,10 @@
             }
         },
         {
-            "name": "Speed Eater",
-            "check-type": "Mile",
-            "score": {
-                "base": 195,
-                "good": 239,
-                "average": 195,
-                "bad": 174,
-                "terrible": 152
-            }
-        },
-        {
-            "name": "Tether",
+            "name": "Murmur",
             "check-type": "Medium",
             "score": {
                 "base": 239,
-                "good": 239,
-                "average": 195,
-                "bad": 174,
-                "terrible": 152
-            }
-        },
-        {
-            "name": "Intense Gaze",
-            "check-type": "End",
-            "score": {
-                "base": 174,
                 "good": 239,
                 "average": 195,
                 "bad": 174,
@@ -2893,95 +2877,6 @@
         {
             "name": "Restart",
             "check-type": "Front",
-            "score": {
-                "base": 152,
-                "good": 239,
-                "average": 195,
-                "bad": 174,
-                "terrible": 152
-            }
-        },
-        {
-            "name": "Frenzied Front Runners",
-            "score": 174
-        },
-        {
-            "name": "Frenzied Pace Chasers",
-            "score": 174
-        },
-        {
-            "name": "Frenzied Late Surgers",
-            "score": 174
-        },
-        {
-            "name": "Frenzied End Closers",
-            "score": 174
-        },
-        {
-            "name": "Trick (Front)",
-            "score": 217
-        },
-        {
-            "name": "Trick (Rear)",
-            "score": 217
-        },
-        {
-            "name": "Subdued Front Runners",
-            "score": 217
-        },
-        {
-            "name": "Flustered Front Runners",
-            "score": 217
-        },
-        {
-            "name": "Subdued Pace Chasers",
-            "score": 217
-        },
-        {
-            "name": "Flustered Pace Chasers",
-            "score": 217
-        },
-        {
-            "name": "Subdued Late Surgers",
-            "score": 217
-        },
-        {
-            "name": "Flustered Late Surgers",
-            "score": 217
-        },
-        {
-            "name": "Subdued End Closers",
-            "score": 217
-        },
-        {
-            "name": "Flustered End Closers",
-            "score": 217
-        },
-        {
-            "name": "Stop Right There!",
-            "check-type": "Sprint",
-            "score": {
-                "base": 210,
-                "good": 288,
-                "average": 236,
-                "bad": 210,
-                "terrible": 183
-            }
-        },
-        {
-            "name": "Murmur",
-            "check-type": "Medium",
-            "score": {
-                "base": 239,
-                "good": 239,
-                "average": 195,
-                "bad": 174,
-                "terrible": 152
-            }
-        },
-        {
-            "name": "Stamina Eater",
-            "check-type": "Long",
             "score": {
                 "base": 174,
                 "good": 239,
@@ -3005,7 +2900,7 @@
             "name": "Smoke Screen",
             "check-type": "Long",
             "score": {
-                "base": 103,
+                "base": 142,
                 "good": 142,
                 "average": 116,
                 "bad": 103,
@@ -3013,15 +2908,72 @@
             }
         },
         {
-            "name": "Disorient",
-            "check-type": "Pace",
+            "name": "Speed Eater",
+            "check-type": "Mile",
             "score": {
-                "base": 77,
-                "good": 94,
-                "average": 77,
-                "bad": 68,
-                "terrible": 60
+                "base": 195,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
             }
+        },
+        {
+            "name": "Stamina Eater",
+            "check-type": "Long",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Stop Right There!",
+            "check-type": "Sprint",
+            "score": {
+                "base": 183,
+                "good": 288,
+                "average": 236,
+                "bad": 210,
+                "terrible": 183
+            }
+        },
+        {
+            "name": "Subdued End Closers",
+            "score": 217
+        },
+        {
+            "name": "Subdued Front Runners",
+            "score": 217
+        },
+        {
+            "name": "Subdued Late Surgers",
+            "score": 217
+        },
+        {
+            "name": "Subdued Pace Chasers",
+            "score": 217
+        },
+        {
+            "name": "Tether",
+            "check-type": "Medium",
+            "score": {
+                "base": 239,
+                "good": 239,
+                "average": 195,
+                "bad": 174,
+                "terrible": 152
+            }
+        },
+        {
+            "name": "Trick (Front)",
+            "score": 217
+        },
+        {
+            "name": "Trick (Rear)",
+            "score": 217
         }
     ],
     "purple": [

@@ -148,9 +148,14 @@
             color: white;
         }
 
+        .back-button-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
         .back-button {
             display: inline-block;
-            margin-top: 30px;
+            margin: 0 auto;
             padding: 12px 30px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -158,6 +163,7 @@
             border-radius: 25px;
             font-weight: bold;
             transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.15);
         }
 
         .back-button:hover {
@@ -235,6 +241,9 @@
         </div>
 
         <div class="content">
+            <div class="back-button-wrapper">
+                <a href="../../index.html" class="back-button"><span data-en="← Back to Calculator" data-vi="← Quay Về Máy Tính">← Back to Calculator</span></a>
+            </div>
             <div class="stats-bar">
                 <div class="stat-item">
                     <div class="stat-number">58</div>
@@ -251,6 +260,35 @@
                 <div class="stat-item">
                     <div class="stat-number">10</div>
                     <div class="stat-label" data-en="Aptitudes" data-vi="Năng Khiếu">Aptitudes</div>
+                </div>
+            </div>
+
+            <!-- Version 3.0.1 -->
+            <div class="changelog-section">
+                <div class="version-header">
+                    <span class="version-title">Version 3.0.1</span>
+                    <span class="version-date">December 10, 2025</span>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">🐛</span>
+                        <span data-en="Bug Fixes" data-vi="Sửa Lỗi">Bug Fixes</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Fixed score calculation for Blue skill 'Passing Pro' (base: 217 → 174)" data-vi="Sửa tính điểm cho kỹ năng Blue 'Passing Pro' (cơ bản: 217 → 174)">Fixed score calculation for Blue skill 'Passing Pro' (base: 217 → 174)</span><span class="badge badge-fixed" data-en="FIXED" data-vi="ĐÃ SỬA">FIXED</span></li>
+                        <li><span data-en="Fixed score calculation for Golden skill 'VIP Pass' (base: 508 → 406)" data-vi="Sửa tính điểm cho kỹ năng Golden 'VIP Pass' (cơ bản: 508 → 406)">Fixed score calculation for Golden skill 'VIP Pass' (base: 508 → 406)</span><span class="badge badge-fixed" data-en="FIXED" data-vi="ĐÃ SỬA">FIXED</span></li>
+                    </ul>
+                </div>
+
+                <div class="change-category">
+                    <div class="category-title">
+                        <span class="category-icon">🔧</span>
+                        <span data-en="Improvements" data-vi="Cải Tiến">Improvements</span>
+                    </div>
+                    <ul class="change-list">
+                        <li><span data-en="Enhanced cross-browser compatibility for volume slider (added -moz-appearance and appearance properties)" data-vi="Cải thiện tương thích đa trình duyệt cho thanh âm lượng (thêm thuộc tính -moz-appearance và appearance)">Enhanced cross-browser compatibility for volume slider (added -moz-appearance and appearance properties)</span><span class="badge badge-improved" data-en="IMPROVED" data-vi="CẢI TIẾN">IMPROVED</span></li>
+                    </ul>
                 </div>
             </div>
 
@@ -386,15 +424,13 @@
                         <li><span data-en="Skills management with color categories" data-vi="Quản lý kỹ năng theo danh mục màu">Skills management with color categories</span></li>
                         <li><span data-en="Character selection dropdown" data-vi="Menu chọn nhân vật">Character selection dropdown</span></li>
                         <li><span data-en="Overall score calculation" data-vi="Tính toán điểm tổng thể">Overall score calculation</span></li>
-                        <li><span data-en="Responsive CSS Grid layout" data-vi="Bố cục CSS Grid responsive">Responsive CSS Grid layout</span></li>
-                        <li><span data-en="Background music support" data-vi="Hỗ trợ nhạc nền">Background music support</span></li>
                     </ul>
                 </div>
             </div>
-
-            <a href="../../index.html" class="back-button"><span data-en="← Back to Calculator" data-vi="← Quay Về Máy Tính">← Back to Calculator</span></a>
         </div>
     </div>
+
+    <script>
 
     <script>
         // Language toggle functionality
